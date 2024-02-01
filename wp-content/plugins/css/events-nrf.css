@@ -1,0 +1,173 @@
+.grid-page { clear: both; display: block; margin: 0 auto; min-height: 10px; padding: 0; position: relative; width: 90%; max-width:1200px !important; } 
+.grid-wide { display:block;overflow:visible;position:relative;width:80%; }  
+.grid-narrow { display:block;overflow:visible;position:relative;width:70%; } 
+.grid-10 { display: block; min-height: 10px; position: relative; width: 100%; }
+.grid-9b { display: block; min-height: 10px; position: relative; width: 95%; }
+.grid-9 { display: block; min-height: 10px; position: relative; width: 90%; } 
+.grid-8b { display: block; min-height: 10px; position: relative; width: 85%; }
+.grid-8 { display: block; min-height: 10px; position: relative; width: 80%; }
+.grid-7 { display: block; min-height: 10px; position: relative; width: 70%; }
+.grid-6 { display: block; min-height: 10px; position: relative; width: 60%; }
+.grid-5 { display: block; min-height: 10px; position: relative; width: 50%; }
+.mauto {clear:both;display:table;float:none;margin:0 auto;}
+.fl {float:left;}
+.fr {float:right;}
+.page-template-page-drinks-and-demos #content, .page-template-page-drinks-and-demos-thank-you #content {margin-bottom:200px;}
+.drinks-and-demos--page #content, .drinks-and-demos-thank-you--page #content  {margin-bottom:0px;}
+.page-template-page-drinks-and-demos .site-footer, .drinks-and-demos--page .site-footer, .page-template-page-drinks-and-demos-thank-you .site-footer, .drinks-and-demos-thank-you--page .site-footer {display:none !important;}
+.invite article {/*background-image:url(/wp-content/uploads/2017/12/nrf-ribbon.png);*/background-position:right -300px;background-repeat:no-repeat;background-size:64%;
+-moz-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
+.invite {/*background-image:url(/wp-content/uploads/2017/12/nrf-line-art.svg); */background-color:#ffffff !important;background-position:center -800px;background-repeat:no-repeat;min-height:100vh;text-align:center;z-index:1;
+-moz-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
+.title-img {display:table;height:auto;margin:0 auto;padding:100px 0 50px;width:100%;}
+
+h1 {
+	color: #000;
+    font-family: "darwinalt_black";
+    font-size:40px;
+    margin:50px 0 0;
+	position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translate3d(0px, 0px, 0px);
+}
+h2 {
+	color: #000;
+    font-family: "darwinalt_extralight";
+    font-size:30px;
+    margin:0 0 20px;
+	position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translate3d(0px, 0px, 0px);
+}
+h1 span, h2 span, h3 span {
+    color: #000;
+    font-family: "harriet_displayblack_italic";
+}
+p {color:#000;font-size:24px;margin-bottom:10px;text-align:center;}
+p.fs24 {font-size:24px;}
+p.disclaimer {font-family: "darwinalt_extralight";font-size:14px;}
+strong {font-family: "darwinalt_black";}
+em {font-family: "darwinalt_blackitalic";} 
+.small-spaced {font-size:12px;letter-spacing:4px;text-transform:uppercase;}
+
+.nrf-small-caps {font-size:14px;letter-spacing:2px;text-transform:uppercase;}
+.red {color:#ff0000;}
+
+.white {color:#fff;}
+.giant-v {display:none;opacity:0.5;
+filter:alpha(opacity=50);}
+input[type="text"], input[type="password"], input[type="tel"], input[type="email"], input[type="number"], textarea {
+	background:#fff;border:1px solid #dbd8d6;color:#999;display:table;font-size:16px;margin:10px auto;padding:16px;width:96% !important;
+}
+input[type="text"].wide, input[type="password"].wide, input[type="tel"].wide, input[type="email"].wide, input[type="number"].wide, textarea.wide {width:98% !important;}
+select { background:#fff;border:3px solid #dbd8d6;
+	-webkit-border-radius:6px;-moz-border-radius:6px;-o-border-radius:6px;-ms-border-radius:6px;border-radius:6px;color:#999;display:table;font-size:16px;margin:15px 0;padding:16px;
+	text-transform:uppercase;width:100% !important; height:52px;
+	 -webkit-appearance: none;-moz-appearance: none;appearance: none;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="tel"]:focus, input[type="email"]:focus, input[type="number"]:focus, textarea:focus, select:focus, textarea:focus {border:1px solid #000 !important;color:#333;-moz-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}	
+
+.screen-reader-response {display:none;}
+.wpcf7-form.sent .grid-10 {display:none;}
+.wpcf7-not-valid-tip, .wpcf7-response-output {color:#c11d8d;font-size:14px;display:table;margin:0 auto;text-align:center;text-transform:uppercase;width:96%;}
+.wpcf7-response-output.wpcf7-mail-sent-ok.mpt10 {border:0 !important;color:#000;font-family: "harriet_displayitalic";font-size: 2.5em;display:table;margin:0 auto;text-align:center;text-transform:none;width:96%;}
+/*
+select, select:focus {background:url(/wp-content/themes/Divi/images/select-arrow.png) no-repeat right center #fff;background-size:40px 40px;}
+select:hover {background:url(/wp-content/themes/Divi/images/select-arrow.png) no-repeat right center #fff;background-size:40px 40px;cursor:pointer;}
+
+option {color:#666;}
+option:first-child {color:#999;}
+option:nth-child {color:#666;} 
+*/
+textarea {min-height:140px;} 
+
+/* Button Styles */
+input[type="submit"] {
+	background:#c11d8d; 
+	border:2px solid #c11d8d;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	color:#fff;
+	display:table;
+	font-family:'ProximaNovaRegular', 'Open Sans', Arial, sans-serif;
+	font-size: 20px !important;
+	font-weight: normal; 
+	line-height: 1.7em !important;
+	margin:20px auto;
+	padding: 0.3em 1em !important; 
+	position: relative; 
+	text-transform:uppercase;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+} 
+
+/* Button Hover */
+input[type="submit"]:hover {   
+	border:2px solid #292560 ;
+	background:#292560;
+	cursor:pointer; -moz-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;
+}
+
+.logo-event-list {display:table;margin:0 auto 60px !important;position:relative; width:70%;}
+.logo-event-list li {display:table-cell;margin:0 2%;padding:0 !important;position:relative;vertical-align:middle;width:46%;}
+.logo-event-list li.nudge-right {left:14%;}
+.logo-event-list li img {display:table;margin:0 auto;height:auto;position:relative; width:80%;}
+.logo-event-list li img.sixty {display:table-cell;margin:0 auto;height:auto;position:relative;width:60%;}
+.logo-event-list li img.fifty {display:table-cell;margin:0 auto;height:auto;position:relative;width:50%;}
+
+.logo-event-list li.single {display:table;margin:0 auto !important;padding:0 !important;position:relative;vertical-align:middle;width:50%;} 
+.logo-event-list li.accent {display:table;margin:0 auto !important;padding:40px 0 0 !important;position:relative;vertical-align:middle;width:100px;} 
+ 
+ 
+/* self-clear floats */
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+* html .clearfix { /* IE6 */ height: 1%;}
+*:first-child+html .clearfix { /* IE7 */ min-height: 1px;}
+
+
+@media screen and (max-width: 2080px) {
+    .invite {background-position:center -600px;-moz-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
+}
+@media screen and (max-width: 2040px) {
+	.invite article {background-position:right -160px;-moz-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
+}
+@media screen and (max-width: 1730px) {
+    .invite {background-position:center -400px;-moz-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
+}
+@media screen and (max-width: 1530px) {
+	.invite article {background-position:right top;-moz-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
+}
+@media screen and (max-width: 1440px) {
+    .invite {background-position:center -200px;-moz-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
+}
+@media screen and (max-width: 820px) {
+    .invite {background-position:center -100px;-moz-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
+} 
+@media screen and (max-width: 660px) {
+	.logo-event-list {margin:60px 0 !important;width:100%;}
+	.logo-event-list li {clear:both;display:block;float:left;margin:0 auto 30px !important;width:100% !important;}
+    .logo-event-list li.single {margin:0 auto !important;width:70% !important;} 
+    .logo-event-list li.nudge-right {left:0%;}
+    .logo-event-list li img {width:100%;}
+    .logo-event-list li img.sixty {width:60%;} 
+    .logo-event-list li img.fifty {width:50%;}  
+    .logo-event-list li.accent {width:75px !important;}     
+}
+@media screen and (max-width: 585px) {
+    .invite article {background-position:right 80px;-moz-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
+}
+@media screen and (max-width: 500px) {
+    .invite {background-position:center 0px;-moz-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
+}
+@media screen and (max-width: 414px) {
+	.fr {float:left;}
+	.grid-9b, .grid-9, .grid-8b, .grid-8, .grid-7b, .grid-7, .grid-6b, .grid-6, .grid-5b, .grid-5, .grid-4b, .grid-4, .grid-3b, .grid-3, .grid-2b, .grid-2, .grid-1b, .grid-1 {width:100%;}
+	input[type="text"], input[type="password"], input[type="tel"], input[type="email"], input[type="number"], textarea {width:90%;}
+    input[type="text"].wide, input[type="password"].wide, input[type="tel"].wide, input[type="email"].wide, input[type="number"].wide, textarea.wide {width:96% !important;}
+    .invite article {background-position:right 55px;background-size:80%;-moz-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
+
+}

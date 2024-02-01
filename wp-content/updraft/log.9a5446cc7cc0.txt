@@ -1,0 +1,1095 @@
+0000.000 (0) Opened log file at time: Tue, 09 Jan 2024 23:53:27 +0000 on https://channelvmedia.com
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 7.4.33 (cgi-fcgi, Linux web02 6.1.0-0.deb11.13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.55-1~bpo11+1 (2023-10-08) x86_64) MySQL: 10.5.21-MariaDB-0+deb11u1-log (max packet size=104857600) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1000M (used: 62.8M | 14M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.012 (0) Free space on disk containing Updraft's temporary directory: 418488.7 MB
+0000.019 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.024 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.037 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1704758283, seconds_ago=86124)
+0000.048 (0) Semaphore (fd, wp_cvm2016options) was stuck, set lock time to 2024-01-09 23:53:27
+0000.053 (0) Semaphore (fd, wp_cvm2016options) reset to 1
+0000.059 (0) Set semaphore last lock (fd) time to 2024-01-09 23:53:27
+0000.064 (0) Semaphore lock (fd) complete
+0000.093 (0) Backup run: resumption=0, nonce=9a5446cc7cc0, file_nonce=9a5446cc7cc0 begun at=1704844407 (0s ago), job type=backup
+0000.110 (0) Scheduling a resumption (1) after 600 seconds (1704845007) in case this run gets aborted
+0000.139 (0) Checking if we have a zip executable available
+0000.151 (0) Testing: /usr/bin/zip
+0000.164 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.176 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.187 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.198 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.209 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.226 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.238 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.255 (0) Working binary zip found: /usr/bin/zip
+0000.279 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.291 (0) Creation of backups of directories: beginning
+0000.327 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.470 (0) Total entities for the zip file: 1217 directories, 7076 files (0 skipped as non-modified), 131.7 MB
+0000.483 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.490 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.497 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.504 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.511 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.517 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.524 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.532 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.539 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.546 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.551 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.7 MB, 7076 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.036 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: size is now: 4.10 MB
+0001.062 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 1100 files added (on-disk size: 4176 KB)
+0001.076 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 1200 files added (on-disk size: 4176 KB)
+0001.089 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 1300 files added (on-disk size: 4176 KB)
+0001.100 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 7076 files batched, 337 (1338) added so far); re-opening (prior size: 4176 KB)
+0002.163 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: size is now: 9.60 MB
+0002.178 (0) A useful amount of data was added after this amount of zip processing: 1.6 s (normalised: 1.6 s, rate: 16064.4 KB/s)
+0002.189 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.5964720249176, normalised_time=1.5935872104236, max_time=2.1831760406494, data points known=1, old_max_bytes=26214400, new_max_bytes=98699587)
+0002.201 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 1400 files added (on-disk size: 9816.9 KB)
+0002.208 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 1500 files added (on-disk size: 9816.9 KB)
+0002.214 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 1600 files added (on-disk size: 9816.9 KB)
+0002.221 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 1700 files added (on-disk size: 9816.9 KB)
+0002.228 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 1800 files added (on-disk size: 9816.9 KB)
+0002.238 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 1900 files added (on-disk size: 9816.9 KB)
+0002.251 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 2000 files added (on-disk size: 9816.9 KB)
+0002.264 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 2100 files added (on-disk size: 9816.9 KB)
+0002.281 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 2200 files added (on-disk size: 9816.9 KB)
+0002.294 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 2300 files added (on-disk size: 9816.9 KB)
+0002.306 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.9 MB, 7076 files batched, 1001 (2339) added so far); re-opening (prior size: 9816.9 KB)
+0002.896 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: size is now: 13.70 MB
+0002.942 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 2400 files added (on-disk size: 14069.8 KB)
+0002.954 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 2500 files added (on-disk size: 14069.8 KB)
+0002.967 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 2600 files added (on-disk size: 14069.8 KB)
+0002.981 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 2700 files added (on-disk size: 14069.8 KB)
+0002.991 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 2800 files added (on-disk size: 14069.8 KB)
+0002.997 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 2900 files added (on-disk size: 14069.8 KB)
+0003.005 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 3000 files added (on-disk size: 14069.8 KB)
+0003.012 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 3100 files added (on-disk size: 14069.8 KB)
+0003.018 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 3200 files added (on-disk size: 14069.8 KB)
+0003.025 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 3300 files added (on-disk size: 14069.8 KB)
+0003.031 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (29.3 MB, 7076 files batched, 1001 (3340) added so far); re-opening (prior size: 14069.8 KB)
+0004.684 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: size is now: 22.60 MB
+0004.703 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 3400 files added (on-disk size: 23178.8 KB)
+0004.710 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 3500 files added (on-disk size: 23178.8 KB)
+0004.717 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 3600 files added (on-disk size: 23178.8 KB)
+0004.727 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 3700 files added (on-disk size: 23178.8 KB)
+0004.740 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 3800 files added (on-disk size: 23178.8 KB)
+0004.753 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 3900 files added (on-disk size: 23178.8 KB)
+0004.766 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 4000 files added (on-disk size: 23178.8 KB)
+0004.779 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 4100 files added (on-disk size: 23178.8 KB)
+0004.791 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 4200 files added (on-disk size: 23178.8 KB)
+0004.804 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 4300 files added (on-disk size: 23178.8 KB)
+0004.816 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.3 MB, 7076 files batched, 1001 (4341) added so far); re-opening (prior size: 23178.8 KB)
+0006.845 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: size is now: 30.40 MB
+0006.881 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 4400 files added (on-disk size: 31138.2 KB)
+0006.895 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 4500 files added (on-disk size: 31138.2 KB)
+0006.908 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 4600 files added (on-disk size: 31138.2 KB)
+0006.922 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 4700 files added (on-disk size: 31138.2 KB)
+0006.935 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 4800 files added (on-disk size: 31138.2 KB)
+0006.948 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 4900 files added (on-disk size: 31138.2 KB)
+0006.961 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 5000 files added (on-disk size: 31138.2 KB)
+0006.974 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 5100 files added (on-disk size: 31138.2 KB)
+0006.987 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 5200 files added (on-disk size: 31138.2 KB)
+0007.000 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 5300 files added (on-disk size: 31138.2 KB)
+0007.006 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.4 MB, 7076 files batched, 1001 (5342) added so far); re-opening (prior size: 31138.2 KB)
+0009.680 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 5400 files added (on-disk size: 36981.9 KB)
+0009.694 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 5500 files added (on-disk size: 36981.9 KB)
+0009.707 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 5600 files added (on-disk size: 36981.9 KB)
+0009.720 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 5700 files added (on-disk size: 36981.9 KB)
+0009.733 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 5800 files added (on-disk size: 36981.9 KB)
+0009.747 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 5900 files added (on-disk size: 36981.9 KB)
+0009.754 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 6000 files added (on-disk size: 36981.9 KB)
+0009.761 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 6100 files added (on-disk size: 36981.9 KB)
+0009.767 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 6200 files added (on-disk size: 36981.9 KB)
+0009.774 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 6300 files added (on-disk size: 36981.9 KB)
+0009.780 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.7 MB, 7076 files batched, 1001 (6343) added so far); re-opening (prior size: 36981.9 KB)
+0012.700 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 6400 files added (on-disk size: 40334.3 KB)
+0012.713 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 6500 files added (on-disk size: 40334.3 KB)
+0012.726 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 6600 files added (on-disk size: 40334.3 KB)
+0012.739 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 6700 files added (on-disk size: 40334.3 KB)
+0012.752 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 6800 files added (on-disk size: 40334.3 KB)
+0012.764 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 6900 files added (on-disk size: 40334.3 KB)
+0012.776 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.tmp: 7000 files added (on-disk size: 40334.3 KB)
+0015.834 (0) Creating zip file manifest (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.list-temp.tmp)
+0015.859 (0) Successfully created zip file manifest (size: 599654)
+0016.371 (0) Created plugins zip (0) - 42707.9 KB in 16 s (2665.1 KB/s) (sha1: 2751417bfb02b2a9b2e8d8eb76bb0559f04810f8, sha256: 1fd22d982b0fc09fe1f0e9c4db951fc7d537c6eb51cdd097f2ede4b184452006)
+0016.396 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0016.408 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-48434a413a6ae880505bd87a1648553d)
+0016.419 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0016.721 (0) Successfully updated and refreshed the access token
+0016.733 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0017.107 (0) Dropbox: quota usage: used=2112.6 MB, total=5376 MB, available=3263.4 MB
+0017.120 (0) Dropbox: Attempt to upload: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip to: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip
+0017.991 (0) Dropbox chunked upload: 2.4 % uploaded (pid_upload_session:ABIHRqBAyErlBFVI9tUg16mhfrDoqXz_tO0U4hLsEMPZf9--rg, 1048576, 9216 KB)
+0019.609 (0) Dropbox chunked upload: 24 % uploaded (pid_upload_session:ABIHRqBAyErlBFVI9tUg16mhfrDoqXz_tO0U4hLsEMPZf9--rg, 10485760, 10240 KB)
+0022.958 (0) Dropbox chunked upload: 48 % uploaded (pid_upload_session:ABIHRqBAyErlBFVI9tUg16mhfrDoqXz_tO0U4hLsEMPZf9--rg, 20971520, 10240 KB)
+0024.421 (0) Dropbox chunked upload: 71.9 % uploaded (pid_upload_session:ABIHRqBAyErlBFVI9tUg16mhfrDoqXz_tO0U4hLsEMPZf9--rg, 31457280, 10240 KB)
+0025.885 (0) Dropbox chunked upload: 95.9 % uploaded (pid_upload_session:ABIHRqBAyErlBFVI9tUg16mhfrDoqXz_tO0U4hLsEMPZf9--rg, 41943040, 10240 KB)
+0026.933 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIHRqBAyErlBFVI9tUg16mhfrDoqXz_tO0U4hLsEMPZf9--rg, 43732897, 10240 KB)
+0028.023 (0) Recording as successfully uploaded: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip
+0028.050 (0) Deleting local file: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip: OK
+0028.056 (0) Dropbox: File upload success (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip): 42707 KB in 10s (3905 KB/s)
+0028.095 (0) Beginning creation of dump of themes (split every: 400 MB)
+0028.115 (0) Total entities for the zip file: 42 directories, 426 files (0 skipped as non-modified), 16 MB
+0028.123 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0028.130 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0028.140 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0028.153 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0028.722 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-themes.zip.tmp: size is now: 10.20 MB
+0028.750 (0) Creating zip file manifest (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-themes.zip.list-temp.tmp)
+0028.764 (0) Successfully created zip file manifest (size: 26267)
+0028.944 (0) Created themes zip (0) - 10444 KB in 0.8 s (12579.7 KB/s) (sha1: 3c50ef60cc9dc6e5a7fa56ced45e6c36496d6e70, sha256: 1a2a799ed7302927f48baa2c824f72d25ef0c22ad34c95ce3492955c5e1d5146)
+0028.980 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0028.992 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-48434a413a6ae880505bd87a1648553d)
+0029.004 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0029.017 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0029.361 (0) Dropbox: quota usage: used=2154.3 MB, total=5376 MB, available=3221.7 MB
+0029.379 (0) Dropbox: Attempt to upload: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-themes.zip to: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-themes.zip
+0030.836 (0) Dropbox chunked upload: 98 % uploaded (pid_upload_session:ABIHRjAWcvAUN6mDSyVPnkvT5d-cnsQqI4lXwV_QvZvXWpqyHA, 10485760, 10240 KB)
+0031.702 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIHRjAWcvAUN6mDSyVPnkvT5d-cnsQqI4lXwV_QvZvXWpqyHA, 10694634, 10240 KB)
+0032.855 (0) Recording as successfully uploaded: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-themes.zip
+0032.887 (0) Deleting local file: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-themes.zip: OK
+0032.898 (0) Dropbox: File upload success (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-themes.zip): 10443 KB in 3s (2968 KB/s)
+0032.958 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0032.970 (0) Looking for candidates to backup in: /var/www/html/ch/channelvmedia.com/wp-content/uploads
+0032.981 (0) finding files: pp-avatar: adding to list (1)
+0032.993 (0) finding files: ppress_uploads: adding to list (2)
+0033.004 (0) finding files: 2021: adding to list (3)
+0033.016 (0) finding files: custom-templates: adding to list (4)
+0033.027 (0) finding files: 2019: adding to list (5)
+0033.039 (0) finding files: 2015: adding to list (6)
+0033.051 (0) finding files: 2022: adding to list (7)
+0033.063 (0) finding files: smush-webp-test.png: adding to list (8)
+0033.074 (0) finding files: .htaccess: adding to list (9)
+0033.085 (0) finding files: 2010: adding to list (10)
+0033.097 (0) finding files: wpcf7_uploads: adding to list (11)
+0033.109 (0) finding files: smush: adding to list (12)
+0033.115 (0) finding files: 2023: adding to list (13)
+0033.121 (0) finding files: 2017: adding to list (14)
+0033.127 (0) finding files: 2008: adding to list (15)
+0033.133 (0) finding files: 2012: adding to list (16)
+0033.139 (0) finding files: 2009: adding to list (17)
+0033.146 (0) finding files: 2024: adding to list (18)
+0033.152 (0) finding files: wpcf7_captcha: adding to list (19)
+0033.158 (0) finding files: backup: skipping: excluded by options (glob)
+0033.164 (0) finding files: 2013: adding to list (20)
+0033.171 (0) finding files: alm_templates: adding to list (21)
+0033.177 (0) finding files: 2014: adding to list (22)
+0033.183 (0) finding files: 2018: adding to list (23)
+0033.189 (0) finding files: spotlight-insta: adding to list (24)
+0033.195 (0) finding files: 2020: adding to list (25)
+0033.201 (0) finding files: 2016: adding to list (26)
+0033.207 (0) finding files: spotlight-error-log.txt: adding to list (27)
+0033.213 (0) finding files: webp-express-test-conversion.webp: adding to list (28)
+0033.219 (0) finding files: 2011: adding to list (29)
+0033.225 (0) finding files: temp: adding to list (30)
+0033.232 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0033.402 (0) Total entities for the zip file: 174 directories, 12024 files (0 skipped as non-modified), 1447.5 MB
+0033.416 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0033.429 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0033.442 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0033.455 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0033.467 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 94.1 MB added on this batch (94.1 MB, 12024 files batched, 403 (403) added so far); re-opening (prior size: 0 KB)
+0040.566 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: size is now: 89.30 MB
+0040.591 (0) A useful amount of data was added after this amount of zip processing: 8 s (normalised: 8 s, rate: 12035.8 KB/s)
+0040.615 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 500 files added (on-disk size: 91439.8 KB)
+0040.628 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 600 files added (on-disk size: 91439.8 KB)
+0040.641 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 700 files added (on-disk size: 91439.8 KB)
+0040.652 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 800 files added (on-disk size: 91439.8 KB)
+0040.662 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 900 files added (on-disk size: 91439.8 KB)
+0040.670 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 1000 files added (on-disk size: 91439.8 KB)
+0040.677 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 1100 files added (on-disk size: 91439.8 KB)
+0040.685 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 1200 files added (on-disk size: 91439.8 KB)
+0040.692 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 1300 files added (on-disk size: 91439.8 KB)
+0040.700 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 1400 files added (on-disk size: 91439.8 KB)
+0040.706 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (81.5 MB, 12024 files batched, 1001 (1404) added so far); re-opening (prior size: 91439.8 KB)
+0062.852 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: size is now: 170.40 MB
+0062.870 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 1500 files added (on-disk size: 174537.1 KB)
+0062.879 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 1600 files added (on-disk size: 174537.1 KB)
+0062.888 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 1700 files added (on-disk size: 174537.1 KB)
+0062.896 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 1800 files added (on-disk size: 174537.1 KB)
+0062.904 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 1900 files added (on-disk size: 174537.1 KB)
+0062.921 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 2000 files added (on-disk size: 174537.1 KB)
+0062.928 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 2100 files added (on-disk size: 174537.1 KB)
+0062.990 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 2200 files added (on-disk size: 174537.1 KB)
+0062.998 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 2300 files added (on-disk size: 174537.1 KB)
+0063.007 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 2400 files added (on-disk size: 174537.1 KB)
+0063.014 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (32.7 MB, 12024 files batched, 1001 (2405) added so far); re-opening (prior size: 174537.1 KB)
+0087.420 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 2500 files added (on-disk size: 207313.3 KB)
+0087.425 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 2600 files added (on-disk size: 207313.3 KB)
+0087.441 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 2700 files added (on-disk size: 207313.3 KB)
+0087.445 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 2800 files added (on-disk size: 207313.3 KB)
+0087.449 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 2900 files added (on-disk size: 207313.3 KB)
+0087.453 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: 3000 files added (on-disk size: 207313.3 KB)
+0087.455 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 94.1 MB added on this batch (206 MB, 12024 files batched, 618 (3023) added so far); re-opening (prior size: 207313.3 KB)
+0134.785 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.tmp: size is now: 408.40 MB
+0134.791 (0) A useful amount of data was added after this amount of zip processing: 48.2 s (normalised: 22 s, rate: 4375.9 KB/s)
+0134.797 (0) Zip size is at/near split limit (408.4 MB / 400 MB) - bumping index (from: 0)
+0139.372 (0) Creating zip file manifest (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.list-temp.tmp)
+0139.382 (0) Successfully created zip file manifest (size: 200082)
+0139.388 (0) Created uploads zip (0) - 418225.9 KB in 101.6 s (4118 KB/s) (checksums: sha1: 82b5e6fc344a28fb646c1480daf004475795568d, sha256: 5b347d698015f37c6034bcb97db807b7db5570360c6b1c0e699bbecee79d6952)
+0139.405 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0139.407 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-48434a413a6ae880505bd87a1648553d)
+0139.410 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0139.413 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0139.741 (0) Dropbox: quota usage: used=2164.5 MB, total=5376 MB, available=3211.5 MB
+0139.745 (0) Dropbox: Attempt to upload: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip to: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip
+0141.613 (0) Dropbox chunked upload: 2.4 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 10485760, 10240 KB)
+0143.124 (0) Dropbox chunked upload: 4.9 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 20971520, 10240 KB)
+0144.701 (0) Dropbox chunked upload: 7.3 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 31457280, 10240 KB)
+0146.146 (0) Dropbox chunked upload: 9.8 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 41943040, 10240 KB)
+0147.736 (0) Dropbox chunked upload: 12.2 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 52428800, 10240 KB)
+0149.387 (0) Dropbox chunked upload: 14.7 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 62914560, 10240 KB)
+0151.153 (0) Dropbox chunked upload: 17.1 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 73400320, 10240 KB)
+0152.750 (0) Dropbox chunked upload: 19.6 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 83886080, 10240 KB)
+0154.401 (0) Dropbox chunked upload: 22 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 94371840, 10240 KB)
+0157.335 (0) Dropbox chunked upload: 24.5 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 104857600, 10240 KB)
+0158.943 (0) Dropbox chunked upload: 26.9 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 115343360, 10240 KB)
+0160.570 (0) Dropbox chunked upload: 29.4 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 125829120, 10240 KB)
+0163.047 (0) Dropbox chunked upload: 31.8 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 136314880, 10240 KB)
+0165.650 (0) Dropbox chunked upload: 34.3 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 146800640, 10240 KB)
+0167.370 (0) Dropbox chunked upload: 36.7 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 157286400, 10240 KB)
+0169.039 (0) Dropbox chunked upload: 39.2 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 167772160, 10240 KB)
+0171.139 (0) Dropbox chunked upload: 41.6 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 178257920, 10240 KB)
+0173.394 (0) Dropbox chunked upload: 44.1 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 188743680, 10240 KB)
+0176.164 (0) Dropbox chunked upload: 46.5 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 199229440, 10240 KB)
+0177.524 (0) Dropbox chunked upload: 49 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 209715200, 10240 KB)
+0179.312 (0) Dropbox chunked upload: 51.4 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 220200960, 10240 KB)
+0180.684 (0) Dropbox chunked upload: 53.9 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 230686720, 10240 KB)
+0182.566 (0) Dropbox chunked upload: 56.3 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 241172480, 10240 KB)
+0184.458 (0) Dropbox chunked upload: 58.8 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 251658240, 10240 KB)
+0186.042 (0) Dropbox chunked upload: 61.2 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 262144000, 10240 KB)
+0188.652 (0) Dropbox chunked upload: 63.7 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 272629760, 10240 KB)
+0190.528 (0) Dropbox chunked upload: 66.1 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 283115520, 10240 KB)
+0192.173 (0) Dropbox chunked upload: 68.6 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 293601280, 10240 KB)
+0193.884 (0) Dropbox chunked upload: 71 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 304087040, 10240 KB)
+0195.312 (0) Dropbox chunked upload: 73.5 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 314572800, 10240 KB)
+0197.425 (0) Dropbox chunked upload: 75.9 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 325058560, 10240 KB)
+0199.073 (0) Dropbox chunked upload: 78.4 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 335544320, 10240 KB)
+0200.680 (0) Dropbox chunked upload: 80.8 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 346030080, 10240 KB)
+0202.310 (0) Dropbox chunked upload: 83.2 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 356515840, 10240 KB)
+0204.221 (0) Dropbox chunked upload: 85.7 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 367001600, 10240 KB)
+0205.893 (0) Dropbox chunked upload: 88.1 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 377487360, 10240 KB)
+0207.976 (0) Dropbox chunked upload: 90.6 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 387973120, 10240 KB)
+0209.397 (0) Dropbox chunked upload: 93 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 398458880, 10240 KB)
+0211.300 (0) Dropbox chunked upload: 95.5 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 408944640, 10240 KB)
+0213.118 (0) Dropbox chunked upload: 97.9 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 419430400, 10240 KB)
+0215.603 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIHRu4idDCKNW70fVR9xCJSedqFLt6mopnA3qAqweyN73UmQw, 428263322, 10240 KB)
+0216.566 (0) Recording as successfully uploaded: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip
+0216.653 (0) Deleting local file: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip: OK
+0216.659 (0) Dropbox: File upload success (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip): 418225 KB in 76s (5437 KB/s)
+0216.671 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (3024) files added so far); re-opening (prior size: 0 KB)
+0216.681 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: size is now: 0.00 MB
+0216.688 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 3100 files added (on-disk size: 43.9 KB)
+0216.693 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 3200 files added (on-disk size: 43.9 KB)
+0216.696 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 94.1 MB added on this batch (188.3 MB, 12024 files batched, 248 (3272) added so far); re-opening (prior size: 43.9 KB)
+0230.040 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: size is now: 188.10 MB
+0230.050 (0) A useful amount of data was added after this amount of zip processing: 13.5 s (normalised: 6.7 s, rate: 14314 KB/s)
+0230.057 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 3300 files added (on-disk size: 192569 KB)
+0230.061 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 3400 files added (on-disk size: 192569 KB)
+0230.065 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 3500 files added (on-disk size: 192569 KB)
+0230.069 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 3600 files added (on-disk size: 192569 KB)
+0230.073 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 3700 files added (on-disk size: 192569 KB)
+0230.077 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 3800 files added (on-disk size: 192569 KB)
+0230.081 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 3900 files added (on-disk size: 192569 KB)
+0230.085 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 4000 files added (on-disk size: 192569 KB)
+0230.088 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 94.1 MB added on this batch (145.7 MB, 12024 files batched, 785 (4057) added so far); re-opening (prior size: 192569 KB)
+0275.132 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: size is now: 332.40 MB
+0275.139 (0) A useful amount of data was added after this amount of zip processing: 45.6 s (normalised: 29.4 s, rate: 3274.8 KB/s)
+0275.145 (0) Performance is good - will increase the amount of data we attempt to batch (time=45.557398080826, normalised_time=29.432287633532, max_time=275.1417388916, data points known=1, old_max_bytes=98699587, new_max_bytes=209715200)
+0275.152 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 4100 files added (on-disk size: 340411.9 KB)
+0275.156 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 4200 files added (on-disk size: 340411.9 KB)
+0275.160 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 4300 files added (on-disk size: 340411.9 KB)
+0275.164 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 4400 files added (on-disk size: 340411.9 KB)
+0275.168 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 4500 files added (on-disk size: 340411.9 KB)
+0275.172 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 4600 files added (on-disk size: 340411.9 KB)
+0275.176 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 4700 files added (on-disk size: 340411.9 KB)
+0275.180 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 4800 files added (on-disk size: 340411.9 KB)
+0275.184 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: 4900 files added (on-disk size: 340411.9 KB)
+0275.188 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (62 MB, 934 (4991) files added so far); last ratio: 0.9909; re-opening (prior size: 340411.9 KB)
+0315.190 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.tmp: size is now: 394.10 MB
+0315.200 (0) Zip size is at/near split limit (394.1 MB / 400 MB) - bumping index (from: 1)
+0319.636 (0) Creating zip file manifest (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.list-temp.tmp)
+0319.650 (0) Successfully created zip file manifest (size: 135107)
+0319.656 (0) Created uploads zip (1) - 403539.8 KB in 175.8 s (2295.3 KB/s) (checksums: sha1: 1622741655ed37093684444f5ad109c3e87ddecf, sha256: 29e160589000c4d86d59ba152a7b139c075940ef02a9f2d84d8ea10eb4c27270)
+0319.678 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0319.681 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-48434a413a6ae880505bd87a1648553d)
+0319.683 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0319.688 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0320.035 (0) Dropbox: quota usage: used=2572.9 MB, total=5376 MB, available=2803.1 MB
+0320.038 (0) Dropbox: Attempt to upload: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip to: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip
+0321.619 (0) Dropbox chunked upload: 2.5 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 10485760, 10240 KB)
+0322.842 (0) Dropbox chunked upload: 5.1 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 20971520, 10240 KB)
+0324.193 (0) Dropbox chunked upload: 7.6 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 31457280, 10240 KB)
+0325.381 (0) Dropbox chunked upload: 10.2 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 41943040, 10240 KB)
+0326.808 (0) Dropbox chunked upload: 12.7 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 52428800, 10240 KB)
+0328.236 (0) Dropbox chunked upload: 15.2 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 62914560, 10240 KB)
+0329.427 (0) Dropbox chunked upload: 17.8 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 73400320, 10240 KB)
+0330.824 (0) Dropbox chunked upload: 20.3 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 83886080, 10240 KB)
+0335.725 (0) Dropbox chunked upload: 22.8 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 94371840, 10240 KB)
+0337.214 (0) Dropbox chunked upload: 25.4 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 104857600, 10240 KB)
+0338.461 (0) Dropbox chunked upload: 27.9 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 115343360, 10240 KB)
+0340.482 (0) Dropbox chunked upload: 30.5 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 125829120, 10240 KB)
+0341.630 (0) Dropbox chunked upload: 33 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 136314880, 10240 KB)
+0342.794 (0) Dropbox chunked upload: 35.5 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 146800640, 10240 KB)
+0344.072 (0) Dropbox chunked upload: 38.1 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 157286400, 10240 KB)
+0345.231 (0) Dropbox chunked upload: 40.6 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 167772160, 10240 KB)
+0346.503 (0) Dropbox chunked upload: 43.1 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 178257920, 10240 KB)
+0348.327 (0) Dropbox chunked upload: 45.7 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 188743680, 10240 KB)
+0349.686 (0) Dropbox chunked upload: 48.2 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 199229440, 10240 KB)
+0350.964 (0) Dropbox chunked upload: 50.8 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 209715200, 10240 KB)
+0352.145 (0) Dropbox chunked upload: 53.3 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 220200960, 10240 KB)
+0353.247 (0) Dropbox chunked upload: 55.8 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 230686720, 10240 KB)
+0354.552 (0) Dropbox chunked upload: 58.4 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 241172480, 10240 KB)
+0356.005 (0) Dropbox chunked upload: 60.9 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 251658240, 10240 KB)
+0358.342 (0) Dropbox chunked upload: 63.4 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 262144000, 10240 KB)
+0359.576 (0) Dropbox chunked upload: 66 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 272629760, 10240 KB)
+0360.787 (0) Dropbox chunked upload: 68.5 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 283115520, 10240 KB)
+0362.174 (0) Dropbox chunked upload: 71.1 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 293601280, 10240 KB)
+0363.572 (0) Dropbox chunked upload: 73.6 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 304087040, 10240 KB)
+0365.041 (0) Dropbox chunked upload: 76.1 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 314572800, 10240 KB)
+0366.664 (0) Dropbox chunked upload: 78.7 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 325058560, 10240 KB)
+0368.168 (0) Dropbox chunked upload: 81.2 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 335544320, 10240 KB)
+0369.566 (0) Dropbox chunked upload: 83.7 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 346030080, 10240 KB)
+0370.776 (0) Dropbox chunked upload: 86.3 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 356515840, 10240 KB)
+0372.088 (0) Dropbox chunked upload: 88.8 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 367001600, 10240 KB)
+0373.489 (0) Dropbox chunked upload: 91.4 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 377487360, 10240 KB)
+0374.959 (0) Dropbox chunked upload: 93.9 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 387973120, 10240 KB)
+0376.309 (0) Dropbox chunked upload: 96.4 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 398458880, 10240 KB)
+0377.722 (0) Dropbox chunked upload: 99 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 408944640, 10240 KB)
+0378.826 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIHRoNC02-WbyY-CmVxQ_v5D_zM_jv80MK_vF6QPFcUO6w6kg, 413224742, 10240 KB)
+0380.127 (0) Recording as successfully uploaded: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip
+0380.222 (0) Deleting local file: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip: OK
+0380.225 (0) Dropbox: File upload success (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip): 403539 KB in 60s (6704 KB/s)
+0380.237 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (4992) files added so far); re-opening (prior size: 0 KB)
+0380.248 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: size is now: 0.00 MB
+0380.255 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 5000 files added (on-disk size: 1.2 KB)
+0380.260 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 5100 files added (on-disk size: 1.2 KB)
+0380.264 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 5200 files added (on-disk size: 1.2 KB)
+0380.268 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 5300 files added (on-disk size: 1.2 KB)
+0380.272 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 5400 files added (on-disk size: 1.2 KB)
+0380.276 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 5500 files added (on-disk size: 1.2 KB)
+0380.280 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 5600 files added (on-disk size: 1.2 KB)
+0380.284 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 5700 files added (on-disk size: 1.2 KB)
+0380.289 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 5800 files added (on-disk size: 1.2 KB)
+0380.294 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 5900 files added (on-disk size: 1.2 KB)
+0380.298 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (195.2 MB, 12024 files batched, 1001 (5993) added so far); re-opening (prior size: 1.2 KB)
+0403.485 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: size is now: 194.30 MB
+0403.501 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 6000 files added (on-disk size: 198939.3 KB)
+0403.508 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 6100 files added (on-disk size: 198939.3 KB)
+0403.512 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 6200 files added (on-disk size: 198939.3 KB)
+0403.516 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 6300 files added (on-disk size: 198939.3 KB)
+0403.522 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 6400 files added (on-disk size: 198939.3 KB)
+0403.531 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 6500 files added (on-disk size: 198939.3 KB)
+0403.537 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 6600 files added (on-disk size: 198939.3 KB)
+0403.541 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 6700 files added (on-disk size: 198939.3 KB)
+0403.547 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 6800 files added (on-disk size: 198939.3 KB)
+0403.551 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 6900 files added (on-disk size: 198939.3 KB)
+0403.555 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (72 MB, 12024 files batched, 1001 (6994) added so far); re-opening (prior size: 198939.3 KB)
+0430.522 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: size is now: 264.80 MB
+0430.534 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 7000 files added (on-disk size: 271110.2 KB)
+0430.543 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 7100 files added (on-disk size: 271110.2 KB)
+0430.551 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 7200 files added (on-disk size: 271110.2 KB)
+0430.558 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 7300 files added (on-disk size: 271110.2 KB)
+0430.562 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 7400 files added (on-disk size: 271110.2 KB)
+0430.566 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 7500 files added (on-disk size: 271110.2 KB)
+0430.570 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 7600 files added (on-disk size: 271110.2 KB)
+0430.574 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 7700 files added (on-disk size: 271110.2 KB)
+0430.579 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 7800 files added (on-disk size: 271110.2 KB)
+0430.583 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 7900 files added (on-disk size: 271110.2 KB)
+0430.587 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (122.6 MB, 12024 files batched, 1001 (7995) added so far); re-opening (prior size: 271110.2 KB)
+0468.443 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: size is now: 386.40 MB
+0468.469 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 8000 files added (on-disk size: 395641.4 KB)
+0468.473 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 8100 files added (on-disk size: 395641.4 KB)
+0468.476 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.tmp: 8200 files added (on-disk size: 395641.4 KB)
+0468.482 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (12.5 MB, 255 (8250) files added so far); last ratio: 0.9921; re-opening (prior size: 395641.4 KB)
+0519.395 (0) Zip size is at/near split limit (398.9 MB / 400 MB) - bumping index (from: 2)
+0523.892 (0) Creating zip file manifest (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.list-temp.tmp)
+0523.907 (0) Successfully created zip file manifest (size: 211252)
+0523.913 (0) Created uploads zip (2) - 408485 KB in 199.7 s (2045.1 KB/s) (checksums: sha1: e60f7e89823655a7be4ebe2be2c5d35f37960d84, sha256: 130ac31de80f6f9fd06486a45640106e1c3c7a501d529dc467ea3448ada192b0)
+0523.932 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0523.938 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-48434a413a6ae880505bd87a1648553d)
+0523.940 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0523.944 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0524.265 (0) Dropbox: quota usage: used=2967 MB, total=5376 MB, available=2409 MB
+0524.268 (0) Dropbox: Attempt to upload: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip to: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip
+0525.673 (0) Dropbox chunked upload: 2.5 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 10485760, 10240 KB)
+0526.931 (0) Dropbox chunked upload: 5 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 20971520, 10240 KB)
+0528.387 (0) Dropbox chunked upload: 7.5 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 31457280, 10240 KB)
+0530.237 (0) Dropbox chunked upload: 10 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 41943040, 10240 KB)
+0531.860 (0) Dropbox chunked upload: 12.5 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 52428800, 10240 KB)
+0533.049 (0) Dropbox chunked upload: 15 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 62914560, 10240 KB)
+0534.786 (0) Dropbox chunked upload: 17.5 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 73400320, 10240 KB)
+0536.042 (0) Dropbox chunked upload: 20.1 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 83886080, 10240 KB)
+0537.374 (0) Dropbox chunked upload: 22.6 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 94371840, 10240 KB)
+0538.716 (0) Dropbox chunked upload: 25.1 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 104857600, 10240 KB)
+0540.130 (0) Dropbox chunked upload: 27.6 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 115343360, 10240 KB)
+0541.588 (0) Dropbox chunked upload: 30.1 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 125829120, 10240 KB)
+0543.176 (0) Dropbox chunked upload: 32.6 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 136314880, 10240 KB)
+0544.712 (0) Dropbox chunked upload: 35.1 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 146800640, 10240 KB)
+0546.270 (0) Dropbox chunked upload: 37.6 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 157286400, 10240 KB)
+0548.061 (0) Dropbox chunked upload: 40.1 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 167772160, 10240 KB)
+0549.448 (0) Dropbox chunked upload: 42.6 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 178257920, 10240 KB)
+0550.829 (0) Dropbox chunked upload: 45.1 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 188743680, 10240 KB)
+0553.400 (0) Dropbox chunked upload: 47.6 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 199229440, 10240 KB)
+0554.755 (0) The scheduled resumption is within 45 seconds - will reschedule
+0554.761 (0) Rescheduling resumption 1: moving to 645 seconds from now (1704845607)
+0554.770 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 600 + 45 = 645
+0554.772 (0) Dropbox chunked upload: 50.1 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 209715200, 10240 KB)
+0557.016 (0) Dropbox chunked upload: 52.6 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 220200960, 10240 KB)
+0558.474 (0) Dropbox chunked upload: 55.2 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 230686720, 10240 KB)
+0560.153 (0) Dropbox chunked upload: 57.7 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 241172480, 10240 KB)
+0561.571 (0) Dropbox chunked upload: 60.2 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 251658240, 10240 KB)
+0563.290 (0) Dropbox chunked upload: 62.7 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 262144000, 10240 KB)
+0566.057 (0) Dropbox chunked upload: 65.2 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 272629760, 10240 KB)
+0568.456 (0) Dropbox chunked upload: 67.7 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 283115520, 10240 KB)
+0569.763 (0) Dropbox chunked upload: 70.2 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 293601280, 10240 KB)
+0571.544 (0) Dropbox chunked upload: 72.7 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 304087040, 10240 KB)
+0577.435 (0) Dropbox chunked upload: 75.2 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 314572800, 10240 KB)
+0579.935 (0) Dropbox chunked upload: 77.7 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 325058560, 10240 KB)
+0581.177 (0) Dropbox chunked upload: 80.2 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 335544320, 10240 KB)
+0582.525 (0) Dropbox chunked upload: 82.7 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 346030080, 10240 KB)
+0584.176 (0) Dropbox chunked upload: 85.2 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 356515840, 10240 KB)
+0585.508 (0) Dropbox chunked upload: 87.7 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 367001600, 10240 KB)
+0587.026 (0) Dropbox chunked upload: 90.2 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 377487360, 10240 KB)
+0588.415 (0) Dropbox chunked upload: 92.8 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 387973120, 10240 KB)
+0589.689 (0) Dropbox chunked upload: 95.3 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 398458880, 10240 KB)
+0591.035 (0) Dropbox chunked upload: 97.8 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 408944640, 10240 KB)
+0595.273 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIHRuV88HrHVFN8WepSRzLLJcjZJJ1-P6W0UcDRWgzRKN3GXQ, 418288617, 10240 KB)
+0596.817 (0) Recording as successfully uploaded: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip
+0596.930 (0) Deleting local file: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip: OK
+0596.936 (0) Dropbox: File upload success (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip): 408484 KB in 72s (5621 KB/s)
+0596.961 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (8251) files added so far); re-opening (prior size: 0 KB)
+0596.976 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: size is now: 0.00 MB
+0596.991 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 8300 files added (on-disk size: 9.3 KB)
+0596.998 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 8400 files added (on-disk size: 9.3 KB)
+0597.008 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 8500 files added (on-disk size: 9.3 KB)
+0597.015 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 8600 files added (on-disk size: 9.3 KB)
+0597.023 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 8700 files added (on-disk size: 9.3 KB)
+0597.031 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 8800 files added (on-disk size: 9.3 KB)
+0597.039 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 8900 files added (on-disk size: 9.3 KB)
+0597.046 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 9000 files added (on-disk size: 9.3 KB)
+0597.050 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 9100 files added (on-disk size: 9.3 KB)
+0597.054 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 9200 files added (on-disk size: 9.3 KB)
+0597.062 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (62.9 MB, 12024 files batched, 1001 (9252) added so far); re-opening (prior size: 9.3 KB)
+0601.654 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: size is now: 62.80 MB
+0601.675 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 9300 files added (on-disk size: 64279 KB)
+0601.684 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 9400 files added (on-disk size: 64279 KB)
+0601.689 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 9500 files added (on-disk size: 64279 KB)
+0601.697 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 9600 files added (on-disk size: 64279 KB)
+0601.703 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 9700 files added (on-disk size: 64279 KB)
+0601.708 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 9800 files added (on-disk size: 64279 KB)
+0601.712 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 9900 files added (on-disk size: 64279 KB)
+0601.718 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 10000 files added (on-disk size: 64279 KB)
+0601.725 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 10100 files added (on-disk size: 64279 KB)
+0601.730 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 10200 files added (on-disk size: 64279 KB)
+0601.734 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (55.9 MB, 12024 files batched, 1001 (10253) added so far); re-opening (prior size: 64279 KB)
+0610.506 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: size is now: 118.90 MB
+0610.533 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 10300 files added (on-disk size: 121708.1 KB)
+0610.537 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 10400 files added (on-disk size: 121708.1 KB)
+0610.540 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 10500 files added (on-disk size: 121708.1 KB)
+0610.544 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 10600 files added (on-disk size: 121708.1 KB)
+0610.548 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 10700 files added (on-disk size: 121708.1 KB)
+0610.553 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 10800 files added (on-disk size: 121708.1 KB)
+0610.557 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 10900 files added (on-disk size: 121708.1 KB)
+0610.561 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 11000 files added (on-disk size: 121708.1 KB)
+0610.564 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 11100 files added (on-disk size: 121708.1 KB)
+0610.571 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 11200 files added (on-disk size: 121708.1 KB)
+0610.574 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (67.3 MB, 12024 files batched, 1001 (11254) added so far); re-opening (prior size: 121708.1 KB)
+0619.337 (0) The time we have been running (619.3) is approaching the resumption interval (645) - increasing resumption interval to 650
+0624.731 (0) The time we have been running (624.7) is approaching the resumption interval (650) - increasing resumption interval to 655
+0628.770 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: size is now: 186.30 MB
+0628.783 (0) The time we have been running (628.8) is approaching the resumption interval (655) - increasing resumption interval to 659
+0628.790 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 11300 files added (on-disk size: 190820.3 KB)
+0628.795 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 11400 files added (on-disk size: 190820.3 KB)
+0628.799 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 11500 files added (on-disk size: 190820.3 KB)
+0628.803 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 11600 files added (on-disk size: 190820.3 KB)
+0628.807 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 11700 files added (on-disk size: 190820.3 KB)
+0628.814 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 11800 files added (on-disk size: 190820.3 KB)
+0628.818 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 11900 files added (on-disk size: 190820.3 KB)
+0628.821 (0) Zip: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: 12000 files added (on-disk size: 190820.3 KB)
+0643.239 (0) The time we have been running (643.2) is approaching the resumption interval (659) - increasing resumption interval to 674
+0648.702 (0) The time we have been running (648.7) is approaching the resumption interval (674) - increasing resumption interval to 679
+0654.730 (0) The time we have been running (654.7) is approaching the resumption interval (679) - increasing resumption interval to 685
+0654.761 (0) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.tmp: size is now: 233.50 MB
+0654.795 (0) Creating zip file manifest (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.list-temp.tmp)
+0654.811 (0) Successfully created zip file manifest (size: 237772)
+0657.483 (0) Created uploads zip (3) - 239136.1 KB in 133.6 s (1790.5 KB/s) (sha1: 8f5664523a33842a29230e1f484667c9299caf6b, sha256: 1af2b6b1e1833b4943d5c64d77756b102e080cf3beaedab53017cf0b5f1b6a03)
+0657.506 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0657.509 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-48434a413a6ae880505bd87a1648553d)
+0657.511 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0657.517 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0659.343 (0) Dropbox: quota usage: used=3365.9 MB, total=5376 MB, available=2010.1 MB
+0659.347 (0) Dropbox: Attempt to upload: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip to: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip
+0661.257 (0) The time we have been running (661.2) is approaching the resumption interval (685) - increasing resumption interval to 692
+0661.263 (0) Dropbox chunked upload: 4.3 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 10485760, 10240 KB)
+0662.897 (0) The time we have been running (662.9) is approaching the resumption interval (692) - increasing resumption interval to 693
+0662.903 (0) Dropbox chunked upload: 8.6 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 20971520, 10240 KB)
+0664.671 (0) The time we have been running (664.7) is approaching the resumption interval (693) - increasing resumption interval to 695
+0664.679 (0) Dropbox chunked upload: 12.8 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 31457280, 10240 KB)
+0666.102 (0) The time we have been running (666.1) is approaching the resumption interval (695) - increasing resumption interval to 697
+0666.108 (0) Dropbox chunked upload: 17.1 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 41943040, 10240 KB)
+0667.490 (0) The time we have been running (667.5) is approaching the resumption interval (697) - increasing resumption interval to 698
+0667.497 (0) Dropbox chunked upload: 21.4 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 52428800, 10240 KB)
+0669.219 (0) The time we have been running (669.2) is approaching the resumption interval (698) - increasing resumption interval to 700
+0669.226 (0) Dropbox chunked upload: 25.7 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 62914560, 10240 KB)
+0671.117 (0) The time we have been running (671.1) is approaching the resumption interval (700) - increasing resumption interval to 702
+0671.123 (0) Dropbox chunked upload: 30 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 73400320, 10240 KB)
+0672.663 (0) The time we have been running (672.7) is approaching the resumption interval (702) - increasing resumption interval to 703
+0672.668 (0) Dropbox chunked upload: 34.3 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 83886080, 10240 KB)
+0674.415 (0) The time we have been running (674.4) is approaching the resumption interval (703) - increasing resumption interval to 705
+0674.424 (0) Dropbox chunked upload: 38.5 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 94371840, 10240 KB)
+0675.940 (0) The time we have been running (675.9) is approaching the resumption interval (705) - increasing resumption interval to 706
+0675.946 (0) Dropbox chunked upload: 42.8 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 104857600, 10240 KB)
+0677.665 (0) The time we have been running (677.7) is approaching the resumption interval (706) - increasing resumption interval to 708
+0677.671 (0) Dropbox chunked upload: 47.1 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 115343360, 10240 KB)
+1217.144 (1) Opened log file at time: Wed, 10 Jan 2024 00:13:44 +0000 on https://channelvmedia.com
+1217.153 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 7.4.33 (cgi-fcgi, Linux web02 6.1.0-0.deb11.13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.55-1~bpo11+1 (2023-10-08) x86_64) MySQL: 10.5.21-MariaDB-0+deb11u1-log (max packet size=104857600) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1000M (used: 18.9M | 22M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+1217.161 (1) Free space on disk containing Updraft's temporary directory: 418243.1 MB
+1217.170 (1) Requesting backup semaphore lock (9a5446cc7cc0)
+1217.188 (1) [Debug] Lock option (updraft_lock_9a5446cc7cc0, wp_cvm2016options) was created in the database
+1217.196 (1) [Info] Lock (updraft_lock_9a5446cc7cc0, wp_cvm2016options) acquired after initialising the database
+1217.214 (1) Backup run: resumption=1, nonce=9a5446cc7cc0, file_nonce=9a5446cc7cc0 begun at=1704844407 (1217s ago), job type=backup, previous check-in=677.66s
+1217.226 (1) Scheduling a resumption (2) after 708 seconds (1704846332) in case this run gets aborted
+1217.258 (1) Checking if we have a zip executable available
+1217.267 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1217.275 (1) Creation of backups of directories: had begun; will resume
+1217.300 (1) Beginning creation of dump of plugins (split every: 400 MB)
+1217.317 (1) Beginning creation of dump of themes (split every: 400 MB)
+1217.333 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+1217.341 (1) Looking for candidates to backup in: /var/www/html/ch/channelvmedia.com/wp-content/uploads
+1217.349 (1) finding files: pp-avatar: adding to list (1)
+1217.357 (1) finding files: ppress_uploads: adding to list (2)
+1217.365 (1) finding files: 2021: adding to list (3)
+1217.372 (1) finding files: custom-templates: adding to list (4)
+1217.380 (1) finding files: 2019: adding to list (5)
+1217.388 (1) finding files: 2015: adding to list (6)
+1217.395 (1) finding files: 2022: adding to list (7)
+1217.403 (1) finding files: smush-webp-test.png: adding to list (8)
+1217.410 (1) finding files: .htaccess: adding to list (9)
+1217.415 (1) finding files: 2010: adding to list (10)
+1217.418 (1) finding files: wpcf7_uploads: adding to list (11)
+1217.426 (1) finding files: smush: adding to list (12)
+1217.446 (1) finding files: 2023: adding to list (13)
+1217.457 (1) finding files: 2017: adding to list (14)
+1217.474 (1) finding files: 2008: adding to list (15)
+1217.477 (1) finding files: 2012: adding to list (16)
+1217.479 (1) finding files: 2009: adding to list (17)
+1217.485 (1) finding files: 2024: adding to list (18)
+1217.488 (1) finding files: wpcf7_captcha: adding to list (19)
+1217.495 (1) finding files: backup: skipping: excluded by options (glob)
+1217.503 (1) finding files: 2013: adding to list (20)
+1217.510 (1) finding files: alm_templates: adding to list (21)
+1217.518 (1) finding files: 2014: adding to list (22)
+1217.526 (1) finding files: 2018: adding to list (23)
+1217.535 (1) finding files: spotlight-insta: adding to list (24)
+1217.545 (1) finding files: 2020: adding to list (25)
+1217.553 (1) finding files: 2016: adding to list (26)
+1217.558 (1) finding files: spotlight-error-log.txt: adding to list (27)
+1217.561 (1) finding files: webp-express-test-conversion.webp: adding to list (28)
+1217.563 (1) finding files: 2011: adding to list (29)
+1217.571 (1) finding files: temp: adding to list (30)
+1217.575 (1) Beginning creation of dump of uploads (split every: 400 MB)
+1217.578 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip: this file has already been created (age: 539 s)
+1217.590 (1) Beginning creation of dump of mu-plugins (split every: 400 MB)
+1217.598 (1) Does not exist: /var/www/html/ch/channelvmedia.com/wp-content/mu-plugins
+1217.606 (1) There are no mu-plugins to backup. Will not raise an error.
+1217.614 (1) mu-plugins: create_zip returned an error
+1217.630 (1) Beginning backup of other directories found in the content directory (index: 0)
+1217.637 (1) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+1217.645 (1) Looking for candidates to backup in: /var/www/html/ch/channelvmedia.com/wp-content
+1217.650 (1) finding files: plugins: skipping: this is the plugins directory
+1217.652 (1) finding files: cache: skipping: excluded by options
+1217.655 (1) finding files: smush-webp: adding to list (1)
+1217.658 (1) finding files: updraft: skipping: this is the updraft directory
+1217.666 (1) finding files: uploads: skipping: this is the uploads directory
+1217.678 (1) finding files: upgrade-temp-backup: adding to list (2)
+1217.685 (1) finding files: themes: skipping: this is the themes directory
+1217.693 (1) finding files: upgrade: skipping: excluded by options
+1217.700 (1) finding files: index.php: adding to list (3)
+1217.718 (1) Total entities for the zip file: 3 directories, 2 files (0 skipped as non-modified), 0 MB
+1217.754 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-others.zip.tmp: size is now: 0.00 MB
+1217.774 (1) Creating zip file manifest (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-others.zip.list-temp.tmp)
+1217.782 (1) Successfully created zip file manifest (size: 87)
+1217.826 (1) Created others zip (0) - 0.9 KB in 0.1 s (8.6 KB/s) (sha1: 8cd9001ba9959eb31a7b43074923f27cad5f7242, sha256: 239129dc9b0745d88f05001ead65fb0ff5fc528c80cd3ee831d7cdaf2af0bba4)
+1217.848 (1) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+1217.855 (1) Beginning dispatch of backup to remote (dropbox) (instance identifier s-48434a413a6ae880505bd87a1648553d)
+1217.863 (1) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+1217.908 (1) Dropbox: access gained; setting chunk size to: 10240 KB
+1219.224 (1) Dropbox: quota usage: used=3365.9 MB, total=5376 MB, available=2010.1 MB
+1219.236 (1) Dropbox: Attempt to upload: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-others.zip to: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-others.zip
+1219.712 (1) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIHRi_wIaIX-R0CKf8s7_wWXaX3FrxT9i_ixDADIp-JwH3PrQ, 931, 10240 KB)
+1220.631 (1) Recording as successfully uploaded: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-others.zip
+1220.648 (1) Deleting local file: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-others.zip: OK
+1220.658 (1) Dropbox: File upload success (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-others.zip): 0 KB in 1s (0 KB/s)
+1220.718 (1) Saving backup status to database (elements: 8)
+1220.735 (1) Resuming creation of database dump (WordPress DB)
+1220.743 (1) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1220.759 (1) Testing potential mysqldump binary: /usr/bin/mysqldump
+1220.778 (1) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_cvm2016options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8  (truncated - 1489 bytes total)
+1220.786 (1) Working binary mysqldump found: /usr/bin/mysqldump
+1220.829 (1) Table wp_cvm2016options: Total expected rows (approximate): 1812
+1220.897 (1) Table wp_cvm2016options: Rows added in this batch (next record: 605623): 1828 (uncompressed bytes in this segment=1662642) in 0.08 seconds
+1220.929 (1) Table wp_cvm2016options: finishing file(s) (2, 205.4 KB)
+1220.941 (1) Table wp_cvm2016users: Total expected rows (via COUNT): 27
+1220.949 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1220.965 (1) Table wp_cvm2016users: Rows added in this batch (next record: 29): 27 (uncompressed bytes in this segment=5687) in 0.02 seconds
+1220.988 (1) Table wp_cvm2016users: finishing file(s) (2, 2.4 KB)
+1221.014 (1) Table wp_cvm2016usermeta: Total expected rows (approximate): 1933
+1221.047 (1) Table wp_cvm2016usermeta: Rows added in this batch (next record: 2176): 2009 (uncompressed bytes in this segment=126390) in 0.04 seconds
+1221.089 (1) Table wp_cvm2016usermeta: finishing file(s) (2, 25 KB)
+1221.115 (1) Table wp_cvm2016commentmeta: Total expected rows (via COUNT): 20
+1221.120 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1221.138 (1) Table wp_cvm2016commentmeta: Rows added in this batch (next record: 89): 20 (uncompressed bytes in this segment=1518) in 0.03 seconds
+1221.173 (1) Table wp_cvm2016commentmeta: finishing file(s) (2, 0.6 KB)
+1221.189 (1) Table wp_cvm2016comments: Total expected rows (via COUNT): 74
+1221.195 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1221.213 (1) Table wp_cvm2016comments: Rows added in this batch (next record: 93): 74 (uncompressed bytes in this segment=36342) in 0.02 seconds
+1221.238 (1) Table wp_cvm2016comments: finishing file(s) (2, 13.2 KB)
+1221.256 (1) Table wp_cvm2016links: Total expected rows (via COUNT): 0
+1221.271 (1) Table wp_cvm2016links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1065) in 0.02 seconds
+1221.300 (1) Table wp_cvm2016links: finishing file(s) (2, 0.5 KB)
+1221.317 (1) Table wp_cvm2016postmeta: Total expected rows (approximate): 926468
+1221.330 (1) [Warning] Table wp_cvm2016postmeta has very many rows (926468) - we hope your web hosting company gives you enough resources to dump out that table in the backup. If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+1226.167 (1) Table wp_cvm2016postmeta: binary mysqldump finished (writes: 97, bytes 67886743, return code 0) in 4.83 seconds
+1226.201 (1) Table wp_cvm2016postmeta: finishing file(s) (1, 8241.3 KB)
+1226.216 (1) Table wp_cvm2016posts: Total expected rows (approximate): 30248
+1265.777 (1) Table wp_cvm2016posts: binary mysqldump finished (writes: 866, bytes 816813202, return code 0) in 39.56 seconds
+1265.797 (1) Table wp_cvm2016posts: finishing file(s) (1, 106875.4 KB)
+1265.863 (1) Table wp_cvm2016term_relationships: Total expected rows (approximate): 561
+1265.884 (1) Table wp_cvm2016term_relationships: Rows added in this batch (next record: 100000): 563 (uncompressed bytes in this segment=9655) in 0.02 seconds
+1265.909 (1) Table wp_cvm2016term_relationships: finishing file(s) (2, 2.2 KB)
+1265.938 (1) Table wp_cvm2016term_taxonomy: Total expected rows (via COUNT): 83
+1265.946 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1265.955 (1) Table wp_cvm2016term_taxonomy: Rows added in this batch (next record: 100): 83 (uncompressed bytes in this segment=3619) in 0.03 seconds
+1265.985 (1) Table wp_cvm2016term_taxonomy: finishing file(s) (2, 1 KB)
+1266.008 (1) Table wp_cvm2016termmeta: Total expected rows (via COUNT): 18
+1266.015 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1266.031 (1) Table wp_cvm2016termmeta: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1553) in 0.03 seconds
+1266.065 (1) Table wp_cvm2016termmeta: finishing file(s) (2, 0.6 KB)
+1266.083 (1) Table wp_cvm2016terms: Total expected rows (via COUNT): 83
+1266.090 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1266.104 (1) Table wp_cvm2016terms: Rows added in this batch (next record: 100): 83 (uncompressed bytes in this segment=4246) in 0.02 seconds
+1266.131 (1) Table wp_cvm2016terms: finishing file(s) (2, 1.6 KB)
+1266.148 (1) Table wp_cvm2016ai1ic: Total expected rows (approximate): 0
+1266.164 (1) Table wp_cvm2016ai1ic: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=528) in 0.02 seconds
+1266.192 (1) Table wp_cvm2016ai1ic: finishing file(s) (2, 0.3 KB)
+1266.218 (1) Table wp_cvm2016alm: Total expected rows (via COUNT): 1
+1266.230 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1266.251 (1) Table wp_cvm2016alm: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=4282) in 0.04 seconds
+1266.285 (1) Table wp_cvm2016alm: finishing file(s) (2, 1.2 KB)
+1266.300 (1) Table wp_cvm2016cf7dbplugin_st: Total expected rows (approximate): 13414
+1266.338 (1) Table wp_cvm2016cf7dbplugin_st: binary mysqldump finished (writes: 27, bytes 267722, return code 0) in 0.03 seconds
+1266.356 (1) Table wp_cvm2016cf7dbplugin_st: finishing file(s) (1, 98.8 KB)
+1266.373 (1) Table wp_cvm2016cf7dbplugin_submits: Total expected rows (approximate): 14555
+1281.426 (1) Table wp_cvm2016cf7dbplugin_submits: binary mysqldump finished (writes: 175, bytes 122225311, return code 0) in 15.05 seconds
+1281.436 (1) Table wp_cvm2016cf7dbplugin_submits: finishing file(s) (1, 105735.9 KB)
+1281.450 (1) Table wp_cvm2016gmp_icons: Total expected rows (via COUNT): 47
+1281.453 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1281.464 (1) Table wp_cvm2016gmp_icons: Rows added in this batch (next record: 47): 47 (uncompressed bytes in this segment=2804) in 0.01 seconds
+1281.479 (1) Table wp_cvm2016gmp_icons: finishing file(s) (2, 0.9 KB)
+1281.489 (1) Table wp_cvm2016gmp_maps: Total expected rows (via COUNT): 1
+1281.491 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1281.503 (1) Table wp_cvm2016gmp_maps: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2470) in 0.01 seconds
+1281.521 (1) Table wp_cvm2016gmp_maps: finishing file(s) (2, 1.1 KB)
+1281.531 (1) Table wp_cvm2016gmp_marker_groups: Total expected rows (via COUNT): 0
+1281.541 (1) Table wp_cvm2016gmp_marker_groups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=666) in 0.01 seconds
+1281.553 (1) Table wp_cvm2016gmp_marker_groups: finishing file(s) (2, 0.4 KB)
+1281.562 (1) Table wp_cvm2016gmp_markers: Total expected rows (via COUNT): 1
+1281.564 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1281.573 (1) Table wp_cvm2016gmp_markers: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1222) in 0.01 seconds
+1281.590 (1) Table wp_cvm2016gmp_markers: finishing file(s) (2, 0.6 KB)
+1281.602 (1) Table wp_cvm2016gmp_membership_presets: Total expected rows (via COUNT): 1
+1281.607 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1281.614 (1) Table wp_cvm2016gmp_membership_presets: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=609) in 0.01 seconds
+1281.637 (1) Table wp_cvm2016gmp_membership_presets: finishing file(s) (2, 0.3 KB)
+1281.644 (1) Table wp_cvm2016gmp_modules: Total expected rows (via COUNT): 14
+1281.647 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1281.654 (1) Table wp_cvm2016gmp_modules: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=1687) in 0.01 seconds
+1281.669 (1) Table wp_cvm2016gmp_modules: finishing file(s) (2, 0.7 KB)
+1281.681 (1) Table wp_cvm2016gmp_modules_type: Total expected rows (via COUNT): 4
+1281.688 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1281.693 (1) Table wp_cvm2016gmp_modules_type: Rows added in this batch (next record: 7): 4 (uncompressed bytes in this segment=633) in 0.01 seconds
+1281.707 (1) Table wp_cvm2016gmp_modules_type: finishing file(s) (2, 0.4 KB)
+1281.716 (1) Table wp_cvm2016gmp_options: Total expected rows (via COUNT): 2
+1281.721 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1281.724 (1) Table wp_cvm2016gmp_options: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1266) in 0.01 seconds
+1281.736 (1) Table wp_cvm2016gmp_options: finishing file(s) (2, 0.6 KB)
+1281.745 (1) Table wp_cvm2016gmp_options_categories: Total expected rows (via COUNT): 4
+1281.748 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1281.751 (1) Table wp_cvm2016gmp_options_categories: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=699) in 0.01 seconds
+1281.763 (1) Table wp_cvm2016gmp_options_categories: finishing file(s) (2, 0.4 KB)
+1281.773 (1) Table wp_cvm2016gmp_usage_stat: Total expected rows (via COUNT): 0
+1281.780 (1) Table wp_cvm2016gmp_usage_stat: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=670) in 0.01 seconds
+1281.792 (1) Table wp_cvm2016gmp_usage_stat: finishing file(s) (2, 0.4 KB)
+1281.803 (1) Table wp_cvm2016gmwd_circles: Total expected rows (via COUNT): 0
+1281.806 (1) Table wp_cvm2016gmwd_circles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1182) in 0.00 seconds
+1281.819 (1) Table wp_cvm2016gmwd_circles: finishing file(s) (2, 0.4 KB)
+1281.832 (1) Table wp_cvm2016gmwd_maps: Total expected rows (via COUNT): 2
+1281.836 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1281.850 (1) Table wp_cvm2016gmwd_maps: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=4064) in 0.02 seconds
+1281.862 (1) Table wp_cvm2016gmwd_maps: finishing file(s) (2, 1.1 KB)
+1281.881 (1) Table wp_cvm2016gmwd_mapstyles: Total expected rows (via COUNT): 0
+1281.889 (1) Table wp_cvm2016gmwd_mapstyles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=550) in 0.02 seconds
+1281.905 (1) Table wp_cvm2016gmwd_mapstyles: finishing file(s) (2, 0.3 KB)
+1281.915 (1) Table wp_cvm2016gmwd_markercategories: Total expected rows (via COUNT): 0
+1281.918 (1) Table wp_cvm2016gmwd_markercategories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=669) in 0.00 seconds
+1281.933 (1) Table wp_cvm2016gmwd_markercategories: finishing file(s) (2, 0.4 KB)
+1281.943 (1) Table wp_cvm2016gmwd_markers: Total expected rows (via COUNT): 8
+1281.946 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1281.955 (1) Table wp_cvm2016gmwd_markers: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=2248) in 0.02 seconds
+1281.975 (1) Table wp_cvm2016gmwd_markers: finishing file(s) (2, 0.9 KB)
+1281.983 (1) Table wp_cvm2016gmwd_options: Total expected rows (via COUNT): 10
+1281.985 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1281.988 (1) Table wp_cvm2016gmwd_options: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1027) in 0.01 seconds
+1282.000 (1) Table wp_cvm2016gmwd_options: finishing file(s) (2, 0.6 KB)
+1282.009 (1) Table wp_cvm2016gmwd_polygons: Total expected rows (via COUNT): 2
+1282.014 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1282.017 (1) Table wp_cvm2016gmwd_polygons: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1612) in 0.01 seconds
+1282.034 (1) Table wp_cvm2016gmwd_polygons: finishing file(s) (2, 0.7 KB)
+1282.051 (1) Table wp_cvm2016gmwd_polylines: Total expected rows (via COUNT): 1
+1282.054 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1282.057 (1) Table wp_cvm2016gmwd_polylines: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1213) in 0.01 seconds
+1282.068 (1) Table wp_cvm2016gmwd_polylines: finishing file(s) (2, 0.6 KB)
+1282.078 (1) Table wp_cvm2016gmwd_rectangles: Total expected rows (via COUNT): 0
+1282.086 (1) Table wp_cvm2016gmwd_rectangles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1126) in 0.01 seconds
+1282.098 (1) Table wp_cvm2016gmwd_rectangles: finishing file(s) (2, 0.4 KB)
+1282.111 (1) Table wp_cvm2016gmwd_shortcodes: Total expected rows (via COUNT): 2
+1282.114 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1282.124 (1) Table wp_cvm2016gmwd_shortcodes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=600) in 0.02 seconds
+1282.146 (1) Table wp_cvm2016gmwd_shortcodes: finishing file(s) (2, 0.4 KB)
+1282.162 (1) Table wp_cvm2016gmwd_themes: Total expected rows (via COUNT): 1
+1282.165 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1282.168 (1) Table wp_cvm2016gmwd_themes: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=5003) in 0.01 seconds
+1282.184 (1) Table wp_cvm2016gmwd_themes: finishing file(s) (2, 0.9 KB)
+1282.197 (1) Table wp_cvm2016mappress_maps: Total expected rows (via COUNT): 0
+1282.206 (1) Table wp_cvm2016mappress_maps: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=489) in 0.01 seconds
+1282.233 (1) Table wp_cvm2016mappress_maps: finishing file(s) (2, 0.3 KB)
+1282.243 (1) Table wp_cvm2016mappress_posts: Total expected rows (approximate): 0
+1282.248 (1) Table wp_cvm2016mappress_posts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=507) in 0.01 seconds
+1282.273 (1) Table wp_cvm2016mappress_posts: finishing file(s) (2, 0.3 KB)
+1282.281 (1) Table wp_cvm2016ppress_coupons: Total expected rows (via COUNT): 0
+1282.283 (1) Table wp_cvm2016ppress_coupons: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=998) in 0.00 seconds
+1282.296 (1) Table wp_cvm2016ppress_coupons: finishing file(s) (2, 0.5 KB)
+1282.314 (1) Table wp_cvm2016ppress_customers: Total expected rows (via COUNT): 1
+1282.317 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1282.327 (1) Table wp_cvm2016ppress_customers: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=968) in 0.02 seconds
+1282.344 (1) Table wp_cvm2016ppress_customers: finishing file(s) (2, 0.5 KB)
+1282.355 (1) Table wp_cvm2016ppress_forms: Total expected rows (via COUNT): 7
+1282.357 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1282.360 (1) Table wp_cvm2016ppress_forms: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1373) in 0.01 seconds
+1282.370 (1) Table wp_cvm2016ppress_forms: finishing file(s) (2, 0.6 KB)
+1282.383 (1) Table wp_cvm2016ppress_formsmeta: Total expected rows (via COUNT): 219
+1282.386 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1282.400 (1) Table wp_cvm2016ppress_formsmeta: Rows added in this batch (next record: 219): 219 (uncompressed bytes in this segment=28037) in 0.02 seconds
+1282.427 (1) Table wp_cvm2016ppress_formsmeta: finishing file(s) (2, 4.8 KB)
+1282.440 (1) Table wp_cvm2016ppress_meta_data: Total expected rows (via COUNT): 0
+1282.446 (1) Table wp_cvm2016ppress_meta_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=645) in 0.01 seconds
+1282.461 (1) Table wp_cvm2016ppress_meta_data: finishing file(s) (2, 0.4 KB)
+1282.481 (1) Table wp_cvm2016ppress_ordermeta: Total expected rows (via COUNT): 0
+1282.487 (1) Table wp_cvm2016ppress_ordermeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=714) in 0.01 seconds
+1282.509 (1) Table wp_cvm2016ppress_ordermeta: finishing file(s) (2, 0.4 KB)
+1282.521 (1) Table wp_cvm2016ppress_orders: Total expected rows (via COUNT): 0
+1282.529 (1) Table wp_cvm2016ppress_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1844) in 0.01 seconds
+1282.544 (1) Table wp_cvm2016ppress_orders: finishing file(s) (2, 0.6 KB)
+1282.555 (1) Table wp_cvm2016ppress_plans: Total expected rows (via COUNT): 0
+1282.562 (1) Table wp_cvm2016ppress_plans: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=973) in 0.01 seconds
+1282.580 (1) Table wp_cvm2016ppress_plans: finishing file(s) (2, 0.5 KB)
+1282.591 (1) Table wp_cvm2016ppress_sessions: Total expected rows (approximate): 0
+1282.594 (1) Table wp_cvm2016ppress_sessions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=662) in 0.00 seconds
+1282.612 (1) Table wp_cvm2016ppress_sessions: finishing file(s) (2, 0.4 KB)
+1282.627 (1) Table wp_cvm2016ppress_subscriptions: Total expected rows (via COUNT): 0
+1282.635 (1) Table wp_cvm2016ppress_subscriptions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1456) in 0.01 seconds
+1282.655 (1) Table wp_cvm2016ppress_subscriptions: finishing file(s) (2, 0.6 KB)
+1282.667 (1) Table wp_cvm2016redirects: Total expected rows (via COUNT): 205
+1282.670 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1282.682 (1) Table wp_cvm2016redirects: Rows added in this batch (next record: 278): 205 (uncompressed bytes in this segment=18034) in 0.02 seconds
+1282.696 (1) Table wp_cvm2016redirects: finishing file(s) (2, 6.2 KB)
+1282.706 (1) Table wp_cvm2016smush_dir_images: Total expected rows (via COUNT): 0
+1282.715 (1) Table wp_cvm2016smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=967) in 0.01 seconds
+1282.727 (1) Table wp_cvm2016smush_dir_images: finishing file(s) (2, 0.5 KB)
+1282.740 (1) Table wp_cvm2016wpgmza: Total expected rows (via COUNT): 1
+1282.743 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1282.749 (1) Table wp_cvm2016wpgmza: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1229) in 0.01 seconds
+1282.764 (1) Table wp_cvm2016wpgmza: finishing file(s) (2, 0.6 KB)
+1282.773 (1) Table wp_cvm2016wpgmza_categories: Total expected rows (via COUNT): 0
+1282.782 (1) Table wp_cvm2016wpgmza_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=622) in 0.01 seconds
+1282.796 (1) Table wp_cvm2016wpgmza_categories: finishing file(s) (2, 0.4 KB)
+1282.804 (1) Table wp_cvm2016wpgmza_category_maps: Total expected rows (via COUNT): 0
+1282.806 (1) Table wp_cvm2016wpgmza_category_maps: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=552) in 0.00 seconds
+1282.820 (1) Table wp_cvm2016wpgmza_category_maps: finishing file(s) (2, 0.3 KB)
+1282.830 (1) Table wp_cvm2016wpgmza_circles: Total expected rows (via COUNT): 0
+1282.832 (1) Table wp_cvm2016wpgmza_circles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=651) in 0.00 seconds
+1282.853 (1) Table wp_cvm2016wpgmza_circles: finishing file(s) (2, 0.4 KB)
+1282.874 (1) Table wp_cvm2016wpgmza_maps: Total expected rows (via COUNT): 1
+1282.876 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1282.890 (1) Table wp_cvm2016wpgmza_maps: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=4414) in 0.02 seconds
+1282.905 (1) Table wp_cvm2016wpgmza_maps: finishing file(s) (2, 1.2 KB)
+1282.925 (1) Table wp_cvm2016wpgmza_polygon: Total expected rows (via COUNT): 0
+1282.935 (1) Table wp_cvm2016wpgmza_polygon: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=937) in 0.02 seconds
+1282.954 (1) Table wp_cvm2016wpgmza_polygon: finishing file(s) (2, 0.4 KB)
+1282.971 (1) Table wp_cvm2016wpgmza_polylines: Total expected rows (via COUNT): 0
+1282.974 (1) Table wp_cvm2016wpgmza_polylines: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=674) in 0.01 seconds
+1282.991 (1) Table wp_cvm2016wpgmza_polylines: finishing file(s) (2, 0.4 KB)
+1283.000 (1) Table wp_cvm2016wpgmza_rectangles: Total expected rows (via COUNT): 0
+1283.003 (1) Table wp_cvm2016wpgmza_rectangles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=671) in 0.00 seconds
+1283.017 (1) Table wp_cvm2016wpgmza_rectangles: finishing file(s) (2, 0.4 KB)
+1283.031 (1) Table wp_cvm2016yoast_indexable: Total expected rows (via COUNT): 433
+1283.033 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1283.061 (1) Table wp_cvm2016yoast_indexable: Rows added in this batch (next record: 14722): 433 (uncompressed bytes in this segment=360327) in 0.03 seconds
+1283.074 (1) Table wp_cvm2016yoast_indexable: finishing file(s) (2, 69 KB)
+1283.087 (1) Table wp_cvm2016yoast_indexable_hierarchy: Total expected rows (approximate): 445
+1283.097 (1) Table wp_cvm2016yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 446 (uncompressed bytes in this segment=9007) in 0.01 seconds
+1283.111 (1) Table wp_cvm2016yoast_indexable_hierarchy: finishing file(s) (2, 1.7 KB)
+1283.126 (1) Table wp_cvm2016yoast_migrations: Total expected rows (via COUNT): 24
+1283.129 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1283.140 (1) Table wp_cvm2016yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1297) in 0.02 seconds
+1283.154 (1) Table wp_cvm2016yoast_migrations: finishing file(s) (2, 0.6 KB)
+1283.161 (1) Table wp_cvm2016yoast_primary_term: Total expected rows (via COUNT): 133
+1283.168 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1283.177 (1) Table wp_cvm2016yoast_primary_term: Rows added in this batch (next record: 137): 133 (uncompressed bytes in this segment=11328) in 0.02 seconds
+1283.189 (1) Table wp_cvm2016yoast_primary_term: finishing file(s) (2, 3 KB)
+1283.198 (1) Table wp_cvm2016yoast_seo_links: Total expected rows (approximate): 4153
+1283.247 (1) Table wp_cvm2016yoast_seo_links: Rows added in this batch (next record: 42608): 4413 (uncompressed bytes in this segment=629946) in 0.05 seconds
+1283.261 (1) Table wp_cvm2016yoast_seo_links: finishing file(s) (2, 83.3 KB)
+1283.276 (1) Table wp_cvm2016yoast_seo_meta: Total expected rows (via COUNT): 467
+1283.279 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1283.289 (1) Table wp_cvm2016yoast_seo_meta: Rows added in this batch (next record: 6328): 467 (uncompressed bytes in this segment=7492) in 0.01 seconds
+1283.301 (1) Table wp_cvm2016yoast_seo_meta: finishing file(s) (2, 1.6 KB)
+1283.304 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016options.table.tmpr605624.gz (1/65/fopen): adding to final database dump
+1283.309 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016options.table.gz (2/65/fopen): adding to final database dump
+1283.312 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016users.table.tmpr30.gz (3/65/fopen): adding to final database dump
+1283.315 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016users.table.gz (4/65/fopen): adding to final database dump
+1283.318 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016usermeta.table.tmpr2177.gz (5/65/fopen): adding to final database dump
+1283.321 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016usermeta.table.gz (6/65/fopen): adding to final database dump
+1283.323 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016commentmeta.table.tmpr90.gz (7/65/fopen): adding to final database dump
+1283.329 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016commentmeta.table.gz (8/65/fopen): adding to final database dump
+1283.331 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016comments.table.tmpr94.gz (9/65/fopen): adding to final database dump
+1283.335 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016comments.table.gz (10/65/fopen): adding to final database dump
+1283.337 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016links.table.tmpr0.gz (11/65/fopen): adding to final database dump
+1283.340 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016links.table.gz (12/65/fopen): adding to final database dump
+1283.343 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016postmeta.table.gz (13/65/fopen): adding to final database dump
+1283.437 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016posts.table.gz (14/65/fopen): adding to final database dump
+1290.166 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016term_relationships.table.tmpr100001.gz (15/65/fopen): adding to final database dump
+1290.171 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016term_relationships.table.gz (16/65/fopen): adding to final database dump
+1290.174 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016term_taxonomy.table.tmpr101.gz (17/65/fopen): adding to final database dump
+1290.177 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016term_taxonomy.table.gz (18/65/fopen): adding to final database dump
+1290.179 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016termmeta.table.tmpr19.gz (19/65/fopen): adding to final database dump
+1290.182 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016termmeta.table.gz (20/65/fopen): adding to final database dump
+1290.185 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016terms.table.tmpr101.gz (21/65/fopen): adding to final database dump
+1290.190 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016terms.table.gz (22/65/fopen): adding to final database dump
+1290.194 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ai1ic.table.tmpr1.gz (23/65/fopen): adding to final database dump
+1290.199 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ai1ic.table.gz (24/65/fopen): adding to final database dump
+1290.204 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016alm.table.tmpr2.gz (25/65/fopen): adding to final database dump
+1290.207 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016alm.table.gz (26/65/fopen): adding to final database dump
+1290.209 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016cf7dbplugin_st.table.gz (27/65/fopen): adding to final database dump
+1290.213 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016cf7dbplugin_submits.table.gz (28/65/fopen): adding to final database dump
+1299.379 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_icons.table.tmpr48.gz (29/65/fopen): adding to final database dump
+1299.384 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_icons.table.gz (30/65/fopen): adding to final database dump
+1299.387 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_maps.table.tmpr2.gz (31/65/fopen): adding to final database dump
+1299.390 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_maps.table.gz (32/65/fopen): adding to final database dump
+1299.393 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_marker_groups.table.tmpr0.gz (33/65/fopen): adding to final database dump
+1299.395 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_marker_groups.table.gz (34/65/fopen): adding to final database dump
+1299.398 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_markers.table.tmpr2.gz (35/65/fopen): adding to final database dump
+1299.401 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_markers.table.gz (36/65/fopen): adding to final database dump
+1299.404 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_membership_presets.table.tmpr2.gz (37/65/fopen): adding to final database dump
+1299.407 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_membership_presets.table.gz (38/65/fopen): adding to final database dump
+1299.410 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_modules.table.tmpr15.gz (39/65/fopen): adding to final database dump
+1299.412 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_modules.table.gz (40/65/fopen): adding to final database dump
+1299.415 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_modules_type.table.tmpr8.gz (41/65/fopen): adding to final database dump
+1299.418 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_modules_type.table.gz (42/65/fopen): adding to final database dump
+1299.421 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_options.table.tmpr3.gz (43/65/fopen): adding to final database dump
+1299.424 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_options.table.gz (44/65/fopen): adding to final database dump
+1299.427 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_options_categories.table.tmpr5.gz (45/65/fopen): adding to final database dump
+1299.429 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_options_categories.table.gz (46/65/fopen): adding to final database dump
+1299.432 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_usage_stat.table.tmpr0.gz (47/65/fopen): adding to final database dump
+1299.435 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmp_usage_stat.table.gz (48/65/fopen): adding to final database dump
+1299.437 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_circles.table.tmpr0.gz (49/65/fopen): adding to final database dump
+1299.440 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_circles.table.gz (50/65/fopen): adding to final database dump
+1299.443 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_maps.table.tmpr3.gz (51/65/fopen): adding to final database dump
+1299.467 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_maps.table.gz (52/65/fopen): adding to final database dump
+1299.473 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_mapstyles.table.tmpr0.gz (53/65/fopen): adding to final database dump
+1299.476 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_mapstyles.table.gz (54/65/fopen): adding to final database dump
+1299.479 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_markercategories.table.tmpr0.gz (55/65/fopen): adding to final database dump
+1299.481 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_markercategories.table.gz (56/65/fopen): adding to final database dump
+1299.484 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_markers.table.tmpr9.gz (57/65/fopen): adding to final database dump
+1299.487 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_markers.table.gz (58/65/fopen): adding to final database dump
+1299.490 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_options.table.tmpr11.gz (59/65/fopen): adding to final database dump
+1299.493 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_options.table.gz (60/65/fopen): adding to final database dump
+1299.495 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_polygons.table.tmpr3.gz (61/65/fopen): adding to final database dump
+1299.511 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_polygons.table.gz (62/65/fopen): adding to final database dump
+1299.514 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_polylines.table.tmpr2.gz (63/65/fopen): adding to final database dump
+1299.517 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_polylines.table.gz (64/65/fopen): adding to final database dump
+1299.519 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_rectangles.table.tmpr0.gz (65/65/fopen): adding to final database dump
+1299.522 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_rectangles.table.gz (66/65/fopen): adding to final database dump
+1299.524 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_shortcodes.table.tmpr3.gz (67/65/fopen): adding to final database dump
+1299.527 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_shortcodes.table.gz (68/65/fopen): adding to final database dump
+1299.530 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_themes.table.tmpr2.gz (69/65/fopen): adding to final database dump
+1299.532 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016gmwd_themes.table.gz (70/65/fopen): adding to final database dump
+1299.535 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016mappress_maps.table.tmpr0.gz (71/65/fopen): adding to final database dump
+1299.537 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016mappress_maps.table.gz (72/65/fopen): adding to final database dump
+1299.540 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016mappress_posts.table.tmpr1.gz (73/65/fopen): adding to final database dump
+1299.543 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016mappress_posts.table.gz (74/65/fopen): adding to final database dump
+1299.545 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_coupons.table.tmpr0.gz (75/65/fopen): adding to final database dump
+1299.548 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_coupons.table.gz (76/65/fopen): adding to final database dump
+1299.551 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_customers.table.tmpr2.gz (77/65/fopen): adding to final database dump
+1299.553 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_customers.table.gz (78/65/fopen): adding to final database dump
+1299.556 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_forms.table.tmpr8.gz (79/65/fopen): adding to final database dump
+1299.558 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_forms.table.gz (80/65/fopen): adding to final database dump
+1299.561 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_formsmeta.table.tmpr220.gz (81/65/fopen): adding to final database dump
+1299.564 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_formsmeta.table.gz (82/65/fopen): adding to final database dump
+1299.567 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_meta_data.table.tmpr0.gz (83/65/fopen): adding to final database dump
+1299.569 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_meta_data.table.gz (84/65/fopen): adding to final database dump
+1299.572 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_ordermeta.table.tmpr0.gz (85/65/fopen): adding to final database dump
+1299.575 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_ordermeta.table.gz (86/65/fopen): adding to final database dump
+1299.577 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_orders.table.tmpr0.gz (87/65/fopen): adding to final database dump
+1299.580 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_orders.table.gz (88/65/fopen): adding to final database dump
+1299.583 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_plans.table.tmpr0.gz (89/65/fopen): adding to final database dump
+1299.586 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_plans.table.gz (90/65/fopen): adding to final database dump
+1299.588 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_sessions.table.tmpr1.gz (91/65/fopen): adding to final database dump
+1299.591 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_sessions.table.gz (92/65/fopen): adding to final database dump
+1299.594 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_subscriptions.table.tmpr0.gz (93/65/fopen): adding to final database dump
+1299.596 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016ppress_subscriptions.table.gz (94/65/fopen): adding to final database dump
+1299.599 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016redirects.table.tmpr279.gz (95/65/fopen): adding to final database dump
+1299.601 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016redirects.table.gz (96/65/fopen): adding to final database dump
+1299.604 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016smush_dir_images.table.tmpr0.gz (97/65/fopen): adding to final database dump
+1299.609 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016smush_dir_images.table.gz (98/65/fopen): adding to final database dump
+1299.613 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza.table.tmpr2.gz (99/65/fopen): adding to final database dump
+1299.621 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza.table.gz (100/65/fopen): adding to final database dump
+1299.625 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza_categories.table.tmpr0.gz (101/65/fopen): adding to final database dump
+1299.627 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza_categories.table.gz (102/65/fopen): adding to final database dump
+1299.630 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza_category_maps.table.tmpr0.gz (103/65/fopen): adding to final database dump
+1299.632 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza_category_maps.table.gz (104/65/fopen): adding to final database dump
+1299.635 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza_circles.table.tmpr0.gz (105/65/fopen): adding to final database dump
+1299.638 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza_circles.table.gz (106/65/fopen): adding to final database dump
+1299.641 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza_maps.table.tmpr2.gz (107/65/fopen): adding to final database dump
+1299.643 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza_maps.table.gz (108/65/fopen): adding to final database dump
+1299.646 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza_polygon.table.tmpr0.gz (109/65/fopen): adding to final database dump
+1299.649 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza_polygon.table.gz (110/65/fopen): adding to final database dump
+1299.651 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza_polylines.table.tmpr0.gz (111/65/fopen): adding to final database dump
+1299.654 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza_polylines.table.gz (112/65/fopen): adding to final database dump
+1299.657 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza_rectangles.table.tmpr0.gz (113/65/fopen): adding to final database dump
+1299.659 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016wpgmza_rectangles.table.gz (114/65/fopen): adding to final database dump
+1299.666 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016yoast_indexable.table.tmpr14723.gz (115/65/fopen): adding to final database dump
+1299.670 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016yoast_indexable.table.gz (116/65/fopen): adding to final database dump
+1299.672 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016yoast_indexable_hierarchy.table.tmpr1001.gz (117/65/fopen): adding to final database dump
+1299.675 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016yoast_indexable_hierarchy.table.gz (118/65/fopen): adding to final database dump
+1299.678 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016yoast_migrations.table.tmpr25.gz (119/65/fopen): adding to final database dump
+1299.680 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016yoast_migrations.table.gz (120/65/fopen): adding to final database dump
+1299.686 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016yoast_primary_term.table.tmpr138.gz (121/65/fopen): adding to final database dump
+1299.688 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016yoast_primary_term.table.gz (122/65/fopen): adding to final database dump
+1299.691 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016yoast_seo_links.table.tmpr42609.gz (123/65/fopen): adding to final database dump
+1299.694 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016yoast_seo_links.table.gz (124/65/fopen): adding to final database dump
+1299.697 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016yoast_seo_meta.table.tmpr6329.gz (125/65/fopen): adding to final database dump
+1299.699 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db-table-wp_cvm2016yoast_seo_meta.table.gz (126/65/fopen): adding to final database dump
+1299.704 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db.gz: finished writing out complete database file (221397 KB)
+1302.225 (1) Total database tables backed up: 65 (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db.gz, size: 226710638, sha1: 8776e8c6c04f2322bcbb59f04e59252e43f9949d, sha256: 6379be4acb2f64788ba752116a2c94ab7a81c8aede924f2cd5c0b8013d647924)
+1302.242 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip: plugins: This file has already been successfully uploaded
+1302.245 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-themes.zip: themes: This file has already been successfully uploaded
+1302.247 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip: uploads: This file has already been successfully uploaded
+1302.250 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip: uploads: This file has already been successfully uploaded
+1302.253 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip: uploads: This file has already been successfully uploaded
+1302.255 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+1302.258 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-others.zip: others: This file has already been successfully uploaded
+1302.261 (1) backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db.gz: db: This file has not yet been successfully uploaded: will queue
+1302.263 (1) Saving backup history. Total backup size: Unknown
+1302.270 (1) Requesting upload of the files that have not yet been successfully uploaded (2)
+1302.279 (1) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+1302.281 (1) Beginning dispatch of backup to remote (dropbox) (instance identifier s-48434a413a6ae880505bd87a1648553d)
+1302.284 (1) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+1302.287 (1) Dropbox: access gained; setting chunk size to: 10240 KB
+1302.613 (1) Dropbox: quota usage: used=3365.9 MB, total=5376 MB, available=2010.1 MB
+1302.619 (1) Dropbox: This is a resumption: 115343360 bytes had already been uploaded
+1302.622 (1) Dropbox: Attempt to upload: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip to: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip
+1305.271 (1) Dropbox chunked upload: 51.4 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 125829120, 10240 KB)
+1306.500 (1) Dropbox chunked upload: 55.7 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 136314880, 10240 KB)
+1307.784 (1) Dropbox chunked upload: 59.9 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 146800640, 10240 KB)
+1309.119 (1) Dropbox chunked upload: 64.2 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 157286400, 10240 KB)
+1310.431 (1) Dropbox chunked upload: 68.5 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 167772160, 10240 KB)
+1311.982 (1) Dropbox chunked upload: 72.8 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 178257920, 10240 KB)
+1313.465 (1) Dropbox chunked upload: 77.1 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 188743680, 10240 KB)
+1315.276 (1) Dropbox chunked upload: 81.4 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 199229440, 10240 KB)
+1316.828 (1) Dropbox chunked upload: 85.6 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 209715200, 10240 KB)
+1319.093 (1) Dropbox chunked upload: 89.9 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 220200960, 10240 KB)
+1320.503 (1) Dropbox chunked upload: 94.2 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 230686720, 10240 KB)
+1322.216 (1) Dropbox chunked upload: 98.5 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 241172480, 10240 KB)
+1323.836 (1) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIHRmh1p8B1KPo-swLXe2RiFgk1fYbkNx3s_4Qji6zjh3CqWA, 244875316, 10240 KB)
+1325.495 (1) Recording as successfully uploaded: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip
+1325.553 (1) Deleting local file: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip: OK
+1325.558 (1) Dropbox: File upload success (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip): 239136 KB in 22s (10424 KB/s)
+1325.882 (1) Dropbox: quota usage: used=3599.5 MB, total=5376 MB, available=1776.5 MB
+1325.885 (1) Dropbox: Attempt to upload: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db.gz to: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db.gz
+1328.070 (1) Dropbox chunked upload: 4.6 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 10485760, 10240 KB)
+1329.679 (1) Dropbox chunked upload: 9.3 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 20971520, 10240 KB)
+1331.576 (1) Dropbox chunked upload: 13.9 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 31457280, 10240 KB)
+1333.588 (1) Dropbox chunked upload: 18.5 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 41943040, 10240 KB)
+1342.760 (1) Dropbox chunked upload: 23.1 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 52428800, 10240 KB)
+1344.570 (1) Dropbox chunked upload: 27.8 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 62914560, 10240 KB)
+1347.552 (1) Dropbox chunked upload: 32.4 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 73400320, 10240 KB)
+1349.106 (1) Dropbox chunked upload: 37 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 83886080, 10240 KB)
+1352.305 (1) Dropbox chunked upload: 41.6 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 94371840, 10240 KB)
+1354.425 (1) Dropbox chunked upload: 46.3 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 104857600, 10240 KB)
+1356.220 (1) Dropbox chunked upload: 50.9 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 115343360, 10240 KB)
+1357.925 (1) Dropbox chunked upload: 55.5 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 125829120, 10240 KB)
+1359.788 (1) Dropbox chunked upload: 60.1 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 136314880, 10240 KB)
+1361.346 (1) Dropbox chunked upload: 64.8 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 146800640, 10240 KB)
+1362.916 (1) Dropbox chunked upload: 69.4 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 157286400, 10240 KB)
+1364.450 (1) Dropbox chunked upload: 74 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 167772160, 10240 KB)
+1366.666 (1) Dropbox chunked upload: 78.6 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 178257920, 10240 KB)
+1368.781 (1) Dropbox chunked upload: 83.3 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 188743680, 10240 KB)
+1370.468 (1) Dropbox chunked upload: 87.9 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 199229440, 10240 KB)
+1373.044 (1) Dropbox chunked upload: 92.5 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 209715200, 10240 KB)
+1374.909 (1) Dropbox chunked upload: 97.1 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 220200960, 10240 KB)
+1377.396 (1) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIHRpnKFoDWia_E0Vby9QhXNkRDotLfGnGzkIiwfl3QgH3pTA, 226710638, 10240 KB)
+1378.542 (1) Recording as successfully uploaded: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db.gz
+1378.590 (1) Deleting local file: backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db.gz: OK
+1378.593 (1) Dropbox: File upload success (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-db.gz): 221397 KB in 52s (4200 KB/s)
+1378.606 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+1378.609 (1) Number of backup sets in history: 2; groups (db): 1
+1378.611 (1) Examining (for databases) backup set with group_id=0, nonce=9a5446cc7cc0, datestamp=1704844407 (Jan 09 2024 23:53:27)
+1378.614 (1) This backup set is the backup set just made, so will not be deleted.
+1378.614 (1) Examining (for databases) backup set with group_id=0, nonce=6e1f2cda1b83, datestamp=1704758283 (Jan 08 2024 23:58:03)
+1378.614 (1) 1704758283: db: this set includes a database (backup_2024-01-08-2358_Channel_V_Media_6e1f2cda1b83-db.gz); db count is now 1
+1378.614 (1) 1704758283: db: over retain limit (1); will delete this database
+1378.615 (1) Dropbox: request deletion: backup_2024-01-08-2358_Channel_V_Media_6e1f2cda1b83-db.gz
+1379.242 (1) Dropbox: deletion succeeded
+1379.253 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+1379.256 (1) Number of backup sets in history: 2; groups (files): 1
+1379.258 (1) Examining (for files) backup set with nonce=9a5446cc7cc0, datestamp=1704844407 (Jan 09 2024 23:53:27)
+1379.258 (1) This backup set is the backup set just made, so will not be deleted.
+1379.261 (1) This backup set is the backup set just made, so will not be deleted.
+1379.261 (1) This backup set is the backup set just made, so will not be deleted.
+1379.261 (1) This backup set is the backup set just made, so will not be deleted.
+1379.261 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1379.263 (1) Examining (for files) backup set with nonce=6e1f2cda1b83, datestamp=1704758283 (Jan 08 2024 23:58:03)
+1379.263 (1) plugins: over retain limit (1); will delete this file entity
+1379.263 (1) themes: over retain limit (1); will delete this file entity
+1379.263 (1) uploads: over retain limit (1); will delete this file entity
+1379.263 (1) others: over retain limit (1); will delete this file entity
+1379.264 (1) Dropbox: request deletion: backup_2024-01-08-2358_Channel_V_Media_6e1f2cda1b83-plugins.zip
+1379.837 (1) Dropbox: deletion succeeded
+1379.843 (1) Dropbox: request deletion: backup_2024-01-08-2358_Channel_V_Media_6e1f2cda1b83-themes.zip
+1380.430 (1) Dropbox: deletion succeeded
+1380.433 (1) Dropbox: request deletion: backup_2024-01-08-2358_Channel_V_Media_6e1f2cda1b83-uploads.zip
+1381.637 (1) Dropbox: deletion succeeded
+1381.640 (1) Dropbox: request deletion: backup_2024-01-08-2358_Channel_V_Media_6e1f2cda1b83-uploads2.zip
+1382.240 (1) Dropbox: deletion succeeded
+1382.245 (1) Dropbox: request deletion: backup_2024-01-08-2358_Channel_V_Media_6e1f2cda1b83-uploads3.zip
+1382.752 (1) Dropbox: deletion succeeded
+1382.759 (1) Dropbox: request deletion: backup_2024-01-08-2358_Channel_V_Media_6e1f2cda1b83-uploads4.zip
+1383.341 (1) Dropbox: deletion succeeded
+1383.345 (1) Dropbox: request deletion: backup_2024-01-08-2358_Channel_V_Media_6e1f2cda1b83-others.zip
+1383.847 (1) Dropbox: deletion succeeded
+1383.864 (1) This backup set is now empty; will remove from history
+1383.866 (1) Deleting log file (log.6e1f2cda1b83.txt)
+1383.869 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1383.880 (1) Resume backup (9a5446cc7cc0, 1): finish run
+1383.886 (1) [Info] Lock option (updraft_lock_9a5446cc7cc0, wp_cvm2016options) released
+1383.891 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+1383.900 (1) Deleting zip manifest (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-plugins.zip.list.tmp)
+1383.902 (1) Deleting zip manifest (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-themes.zip.list.tmp)
+1383.905 (1) Deleting zip manifest (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads.zip.list.tmp)
+1383.908 (1) Deleting zip manifest (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads2.zip.list.tmp)
+1383.911 (1) Deleting zip manifest (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads3.zip.list.tmp)
+1383.913 (1) Deleting zip manifest (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-uploads4.zip.list.tmp)
+1383.916 (1) Deleting zip manifest (backup_2024-01-09-2353_Channel_V_Media_9a5446cc7cc0-others.zip.list.tmp)
+1383.919 (1) No email will/can be sent - the user has not configured an email address.
+1383.921 (1) The backup succeeded and is now complete

@@ -1,0 +1,11 @@
+# www.robotstxt.org/
+# http://code.google.com/web/controlcrawlindex/
+
+User-agent: *
+
+Sitemap: https://channelvmedia.com/post-sitemap.xml
+Sitemap: https://channelvmedia.com/page-sitemap.xml
+Sitemap: https://channelvmedia.com/case-studies-sitemap.xml
+Sitemap: https://channelvmedia.com/category-sitemap.xml
+Sitemap: https://channelvmedia.com/post_tag-sitemap.xml
+Sitemap: https://channelvmedia.com/author-sitemap.xml

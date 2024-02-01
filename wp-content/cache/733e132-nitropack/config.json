@@ -1,0 +1,34 @@
+{
+    "afterlogicdffghgthf.ru": {
+        "siteId": "OnhIGIjtfGToOZgueHvNlAdbrYDIGYrQ",
+        "siteSecret": "DqaNYCyzGLhvGW9L3JnxFIYnJXH3Ni48ihkG5aDqb7gIYEbpcqvOkUbObiEkUMX9",
+        "blogId": 1,
+        "compression": false,
+        "webhookToken": "e4269cb66852ab21453c57f7c788c672",
+        "home_url": "https:\/\/afterlogicdffghgthf.ru",
+        "admin_url": "https:\/\/afterlogicdffghgthf.ru\/wp-admin\/",
+        "hosting": "unknown",
+        "alwaysBuffer": true,
+        "isEzoicActive": false,
+        "isApoActive": false,
+        "isNginxHelperActive": false,
+        "isLateIntegrationInitRequired": false,
+        "isDlmActive": false,
+        "isWoocommerceCacheHandlerActive": false,
+        "isWoocommerceActive": false,
+        "isAeliaCurrencySwitcherActive": false,
+        "isGeoTargetingWPActive": false,
+        "dlm_downloading_url": null,
+        "dlm_download_endpoint": null,
+        "pluginVersion": "1.11.0",
+        "options_cache": {
+            "cache_handler_cache_handler": false,
+            "woocommerce_default_customer_address": false,
+            "wc_aelia_currency_switcher": {
+                "ipgeolocation_enabled": null
+            }
+        },
+        "additional_domains": []
+    },
+    "config_path": "7c060aa38dd95dc775ac7d53f946c2ea"
+}
